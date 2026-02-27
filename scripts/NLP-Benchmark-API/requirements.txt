@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+transformers
+torch
+matplotlib
+spacy
+joblib
+scikit-fuzzy
+uuid
+sacremoses
+accelerate>=0.26.0

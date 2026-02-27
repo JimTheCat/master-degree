@@ -1,0 +1,20 @@
+{
+  "emocje": [
+    "AGRESJA_WERBALNA",
+    "STRATEGIA_STRACHU",
+    "DEHUMANIZACJA_POGARDA",
+    "DUMA_I_SUKCES",
+    "MESJANIZM_MORALNY"
+  ],
+  "techniki_retoryczne": [
+    "POLARYZACJA_MY_ONI",
+    "AD_HOMINEM",
+    "OBLĘŻONA_TWIERDZA",
+    "PRZYPISYWANIE_ZŁYCH_INTENCJI",
+    "WHATABOUTISM",
+    "SOFIZMAT_ROZSZERZENIA",
+    "DOWÓD_ANEGDOTYCZNY",
+    "APEL_O_JEDNOŚĆ"
+  ]
+}
+
