@@ -1,0 +1,1034 @@
+2026-08-02 22:24:46 INFO    klasyfikator ====================================================================
+2026-08-02 22:24:46 INFO    klasyfikator   run               : 20260802_222446
+2026-08-02 22:24:46 INFO    klasyfikator   model             : qwen3.5-9b@q6_k
+2026-08-02 22:24:46 INFO    klasyfikator   metoda            : one_shot
+2026-08-02 22:24:46 INFO    klasyfikator   suma_kontrolna    : f02abe345a36
+2026-08-02 22:24:46 INFO    klasyfikator   seed              : 42
+2026-08-02 22:24:46 INFO    klasyfikator   temperatura       : 0.0
+2026-08-02 22:24:46 INFO    klasyfikator   limit_znakow      : 6000
+2026-08-02 22:24:46 INFO    klasyfikator   max_tokenow       : 500
+2026-08-02 22:24:46 INFO    klasyfikator   lm_studio_url     : http://localhost:1234/v1
+2026-08-02 22:24:46 INFO    klasyfikator   kategorii         : 15
+2026-08-02 22:24:46 INFO    klasyfikator   wersja_programu   : 1.0
+2026-08-02 22:24:46 INFO    klasyfikator   zrobione_wczesniej: 0
+2026-08-02 22:24:46 INFO    klasyfikator   tekstów w pliku   : 228326
+2026-08-02 22:24:46 INFO    klasyfikator   już przetworzonych: 0
+2026-08-02 22:24:46 INFO    klasyfikator   do powtórzenia (ERROR): 0
+2026-08-02 22:24:46 INFO    klasyfikator   do przetworzenia  : 228326
+2026-08-02 22:24:46 INFO    klasyfikator ====================================================================
+2026-08-02 22:24:46 INFO    drive        Konto serwisowe: prod-magister-ewaluacja@planar-compass-480615-a3.iam.gserviceaccount.com
+2026-08-02 22:24:46 INFO    klasyfikator Dysk Google: połączono
+2026-08-02 22:26:25 INFO    klasyfikator     500/228326 | 5.05 tekst/s | OK 500  PARSE_FAIL 0  ERROR 0 | pozostało ~12.5 h
+2026-08-02 22:26:28 INFO    drive        Dysk: progress.json (2 kB) w 2.7s
+2026-08-02 22:28:37 INFO    klasyfikator    1000/228326 | 4.32 tekst/s | OK 1000  PARSE_FAIL 0  ERROR 0 | pozostało ~14.6 h
+2026-08-02 22:28:39 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 22:30:35 INFO    klasyfikator    1500/228326 | 4.29 tekst/s | OK 1500  PARSE_FAIL 0  ERROR 0 | pozostało ~14.7 h
+2026-08-02 22:30:37 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 22:32:27 INFO    klasyfikator    2000/228326 | 4.34 tekst/s | OK 2000  PARSE_FAIL 0  ERROR 0 | pozostało ~14.5 h
+2026-08-02 22:32:29 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 22:34:26 INFO    klasyfikator    2500/228326 | 4.31 tekst/s | OK 2500  PARSE_FAIL 0  ERROR 0 | pozostało ~14.6 h
+2026-08-02 22:34:28 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 22:36:45 INFO    klasyfikator    3000/228326 | 4.17 tekst/s | OK 3000  PARSE_FAIL 0  ERROR 0 | pozostało ~15.0 h
+2026-08-02 22:36:47 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 22:38:50 INFO    klasyfikator    3500/228326 | 4.15 tekst/s | OK 3500  PARSE_FAIL 0  ERROR 0 | pozostało ~15.1 h
+2026-08-02 22:38:52 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 22:40:49 INFO    klasyfikator    4000/228326 | 4.15 tekst/s | OK 4000  PARSE_FAIL 0  ERROR 0 | pozostało ~15.0 h
+2026-08-02 22:40:51 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-02 22:42:41 INFO    klasyfikator    4500/228326 | 4.19 tekst/s | OK 4496  PARSE_FAIL 4  ERROR 0 | pozostało ~14.8 h
+2026-08-02 22:42:43 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 22:44:42 INFO    klasyfikator    5000/228326 | 4.18 tekst/s | OK 4996  PARSE_FAIL 4  ERROR 0 | pozostało ~14.8 h
+2026-08-02 22:44:42 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-02 22:44:43 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 22:44:46 INFO    drive        Dysk: wyniki.jsonl.gz (83 kB) w 2.2s
+2026-08-02 22:46:37 INFO    klasyfikator    5500/228326 | 4.19 tekst/s | OK 5496  PARSE_FAIL 4  ERROR 0 | pozostało ~14.8 h
+2026-08-02 22:46:39 INFO    drive        Dysk: progress.json (2 kB) w 1.7s
+2026-08-02 22:48:20 INFO    klasyfikator    6000/228326 | 4.24 tekst/s | OK 5996  PARSE_FAIL 4  ERROR 0 | pozostało ~14.6 h
+2026-08-02 22:48:22 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 22:50:15 INFO    klasyfikator    6500/228326 | 4.25 tekst/s | OK 6496  PARSE_FAIL 4  ERROR 0 | pozostało ~14.5 h
+2026-08-02 22:50:17 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 22:52:14 INFO    klasyfikator    7000/228326 | 4.25 tekst/s | OK 6992  PARSE_FAIL 8  ERROR 0 | pozostało ~14.5 h
+2026-08-02 22:52:16 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-02 22:53:53 INFO    klasyfikator    7500/228326 | 4.29 tekst/s | OK 7491  PARSE_FAIL 9  ERROR 0 | pozostało ~14.3 h
+2026-08-02 22:53:55 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 22:55:28 INFO    klasyfikator    8000/228326 | 4.34 tekst/s | OK 7991  PARSE_FAIL 9  ERROR 0 | pozostało ~14.1 h
+2026-08-02 22:55:30 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 22:57:27 INFO    klasyfikator    8500/228326 | 4.33 tekst/s | OK 8491  PARSE_FAIL 9  ERROR 0 | pozostało ~14.1 h
+2026-08-02 22:57:29 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 22:59:23 INFO    klasyfikator    9000/228326 | 4.33 tekst/s | OK 8991  PARSE_FAIL 9  ERROR 0 | pozostało ~14.1 h
+2026-08-02 22:59:25 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:01:27 INFO    klasyfikator    9500/228326 | 4.32 tekst/s | OK 9491  PARSE_FAIL 9  ERROR 0 | pozostało ~14.1 h
+2026-08-02 23:01:29 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-02 23:03:30 INFO    klasyfikator   10000/228326 | 4.30 tekst/s | OK 9991  PARSE_FAIL 9  ERROR 0 | pozostało ~14.1 h
+2026-08-02 23:03:30 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-02 23:03:32 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 23:03:34 INFO    drive        Dysk: wyniki.jsonl.gz (167 kB) w 2.2s
+2026-08-02 23:05:42 INFO    klasyfikator   10500/228326 | 4.27 tekst/s | OK 10491  PARSE_FAIL 9  ERROR 0 | pozostało ~14.2 h
+2026-08-02 23:05:44 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:07:28 INFO    klasyfikator   11000/228326 | 4.29 tekst/s | OK 10990  PARSE_FAIL 10  ERROR 0 | pozostało ~14.1 h
+2026-08-02 23:07:30 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:09:26 INFO    klasyfikator   11500/228326 | 4.29 tekst/s | OK 11490  PARSE_FAIL 10  ERROR 0 | pozostało ~14.0 h
+2026-08-02 23:09:28 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-02 23:11:15 INFO    klasyfikator   12000/228326 | 4.30 tekst/s | OK 11990  PARSE_FAIL 10  ERROR 0 | pozostało ~14.0 h
+2026-08-02 23:11:17 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 23:13:08 INFO    klasyfikator   12500/228326 | 4.31 tekst/s | OK 12490  PARSE_FAIL 10  ERROR 0 | pozostało ~13.9 h
+2026-08-02 23:13:10 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-02 23:15:02 INFO    klasyfikator   13000/228326 | 4.31 tekst/s | OK 12990  PARSE_FAIL 10  ERROR 0 | pozostało ~13.9 h
+2026-08-02 23:15:04 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-02 23:16:54 INFO    klasyfikator   13500/228326 | 4.32 tekst/s | OK 13490  PARSE_FAIL 10  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:16:56 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 23:18:54 INFO    klasyfikator   14000/228326 | 4.31 tekst/s | OK 13990  PARSE_FAIL 10  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:18:56 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-02 23:20:43 INFO    klasyfikator   14500/228326 | 4.32 tekst/s | OK 14490  PARSE_FAIL 10  ERROR 0 | pozostało ~13.7 h
+2026-08-02 23:20:44 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:22:58 INFO    klasyfikator   15000/228326 | 4.30 tekst/s | OK 14990  PARSE_FAIL 10  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:22:58 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-02 23:23:00 INFO    drive        Dysk: progress.json (2 kB) w 2.4s
+2026-08-02 23:23:03 INFO    drive        Dysk: wyniki.jsonl.gz (249 kB) w 2.4s
+2026-08-02 23:25:09 INFO    klasyfikator   15500/228326 | 4.28 tekst/s | OK 15490  PARSE_FAIL 10  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:25:10 INFO    drive        Dysk: progress.json (2 kB) w 1.5s
+2026-08-02 23:27:22 INFO    klasyfikator   16000/228326 | 4.26 tekst/s | OK 15989  PARSE_FAIL 11  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:27:24 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 23:29:35 INFO    klasyfikator   16500/228326 | 4.24 tekst/s | OK 16489  PARSE_FAIL 11  ERROR 0 | pozostało ~13.9 h
+2026-08-02 23:29:36 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-02 23:31:33 INFO    klasyfikator   17000/228326 | 4.24 tekst/s | OK 16989  PARSE_FAIL 11  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:31:35 INFO    drive        Dysk: progress.json (2 kB) w 1.6s
+2026-08-02 23:33:47 INFO    klasyfikator   17500/228326 | 4.23 tekst/s | OK 17489  PARSE_FAIL 11  ERROR 0 | pozostało ~13.9 h
+2026-08-02 23:33:49 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 23:35:57 INFO    klasyfikator   18000/228326 | 4.21 tekst/s | OK 17989  PARSE_FAIL 11  ERROR 0 | pozostało ~13.9 h
+2026-08-02 23:35:59 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:37:54 INFO    klasyfikator   18500/228326 | 4.22 tekst/s | OK 18489  PARSE_FAIL 11  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:37:56 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 23:39:58 INFO    klasyfikator   19000/228326 | 4.21 tekst/s | OK 18989  PARSE_FAIL 11  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:40:00 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-02 23:41:57 INFO    klasyfikator   19500/228326 | 4.21 tekst/s | OK 19488  PARSE_FAIL 12  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:41:59 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:44:05 INFO    klasyfikator   20000/228326 | 4.20 tekst/s | OK 19988  PARSE_FAIL 12  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:44:05 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-02 23:44:07 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 23:44:09 INFO    drive        Dysk: wyniki.jsonl.gz (336 kB) w 2.2s
+2026-08-02 23:46:12 INFO    klasyfikator   20500/228326 | 4.20 tekst/s | OK 20488  PARSE_FAIL 12  ERROR 0 | pozostało ~13.8 h
+2026-08-02 23:46:13 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:48:15 INFO    klasyfikator   21000/228326 | 4.19 tekst/s | OK 20988  PARSE_FAIL 12  ERROR 0 | pozostało ~13.7 h
+2026-08-02 23:48:17 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-02 23:50:13 INFO    klasyfikator   21500/228326 | 4.19 tekst/s | OK 21488  PARSE_FAIL 12  ERROR 0 | pozostało ~13.7 h
+2026-08-02 23:50:15 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:52:11 INFO    klasyfikator   22000/228326 | 4.19 tekst/s | OK 21988  PARSE_FAIL 12  ERROR 0 | pozostało ~13.7 h
+2026-08-02 23:52:13 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:54:14 INFO    klasyfikator   22500/228326 | 4.19 tekst/s | OK 22488  PARSE_FAIL 12  ERROR 0 | pozostało ~13.6 h
+2026-08-02 23:54:16 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-02 23:56:26 INFO    klasyfikator   23000/228326 | 4.18 tekst/s | OK 22988  PARSE_FAIL 12  ERROR 0 | pozostało ~13.6 h
+2026-08-02 23:56:27 INFO    drive        Dysk: progress.json (2 kB) w 1.5s
+2026-08-02 23:58:30 INFO    klasyfikator   23500/228326 | 4.18 tekst/s | OK 23488  PARSE_FAIL 12  ERROR 0 | pozostało ~13.6 h
+2026-08-02 23:58:32 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:00:31 INFO    klasyfikator   24000/228326 | 4.18 tekst/s | OK 23987  PARSE_FAIL 13  ERROR 0 | pozostało ~13.6 h
+2026-08-03 00:00:33 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 00:02:42 INFO    klasyfikator   24500/228326 | 4.17 tekst/s | OK 24487  PARSE_FAIL 13  ERROR 0 | pozostało ~13.6 h
+2026-08-03 00:02:43 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:04:50 INFO    klasyfikator   25000/228326 | 4.16 tekst/s | OK 24986  PARSE_FAIL 14  ERROR 0 | pozostało ~13.6 h
+2026-08-03 00:04:50 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 00:04:52 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:04:54 INFO    drive        Dysk: wyniki.jsonl.gz (423 kB) w 2.2s
+2026-08-03 00:07:31 INFO    klasyfikator   25500/228326 | 4.14 tekst/s | OK 25485  PARSE_FAIL 15  ERROR 0 | pozostało ~13.6 h
+2026-08-03 00:07:33 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:09:33 INFO    klasyfikator   26000/228326 | 4.14 tekst/s | OK 25985  PARSE_FAIL 15  ERROR 0 | pozostało ~13.6 h
+2026-08-03 00:09:35 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:11:37 INFO    klasyfikator   26500/228326 | 4.13 tekst/s | OK 26485  PARSE_FAIL 15  ERROR 0 | pozostało ~13.6 h
+2026-08-03 00:11:38 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 00:13:36 INFO    klasyfikator   27000/228326 | 4.13 tekst/s | OK 26985  PARSE_FAIL 15  ERROR 0 | pozostało ~13.5 h
+2026-08-03 00:13:38 INFO    drive        Dysk: progress.json (2 kB) w 1.7s
+2026-08-03 00:15:43 INFO    klasyfikator   27500/228326 | 4.13 tekst/s | OK 27485  PARSE_FAIL 15  ERROR 0 | pozostało ~13.5 h
+2026-08-03 00:15:45 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:18:15 INFO    klasyfikator   28000/228326 | 4.11 tekst/s | OK 27985  PARSE_FAIL 15  ERROR 0 | pozostało ~13.5 h
+2026-08-03 00:18:17 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:20:15 INFO    klasyfikator   28500/228326 | 4.11 tekst/s | OK 28485  PARSE_FAIL 15  ERROR 0 | pozostało ~13.5 h
+2026-08-03 00:20:17 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 00:22:27 INFO    klasyfikator   29000/228326 | 4.11 tekst/s | OK 28985  PARSE_FAIL 15  ERROR 0 | pozostało ~13.5 h
+2026-08-03 00:22:29 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 00:24:20 INFO    klasyfikator   29500/228326 | 4.11 tekst/s | OK 29484  PARSE_FAIL 16  ERROR 0 | pozostało ~13.4 h
+2026-08-03 00:24:22 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 00:26:32 INFO    klasyfikator   30000/228326 | 4.11 tekst/s | OK 29984  PARSE_FAIL 16  ERROR 0 | pozostało ~13.4 h
+2026-08-03 00:26:32 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 00:26:33 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 00:26:36 INFO    drive        Dysk: wyniki.jsonl.gz (509 kB) w 2.3s
+2026-08-03 00:28:36 INFO    klasyfikator   30500/228326 | 4.10 tekst/s | OK 30484  PARSE_FAIL 16  ERROR 0 | pozostało ~13.4 h
+2026-08-03 00:28:38 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:30:47 INFO    klasyfikator   31000/228326 | 4.10 tekst/s | OK 30984  PARSE_FAIL 16  ERROR 0 | pozostało ~13.4 h
+2026-08-03 00:30:49 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 00:32:47 INFO    klasyfikator   31500/228326 | 4.10 tekst/s | OK 31484  PARSE_FAIL 16  ERROR 0 | pozostało ~13.3 h
+2026-08-03 00:32:49 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:34:47 INFO    klasyfikator   32000/228326 | 4.10 tekst/s | OK 31984  PARSE_FAIL 16  ERROR 0 | pozostało ~13.3 h
+2026-08-03 00:34:49 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 00:36:50 INFO    klasyfikator   32500/228326 | 4.10 tekst/s | OK 32484  PARSE_FAIL 16  ERROR 0 | pozostało ~13.3 h
+2026-08-03 00:36:52 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 00:38:59 INFO    klasyfikator   33000/228326 | 4.10 tekst/s | OK 32984  PARSE_FAIL 16  ERROR 0 | pozostało ~13.2 h
+2026-08-03 00:39:01 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:40:54 INFO    klasyfikator   33500/228326 | 4.10 tekst/s | OK 33484  PARSE_FAIL 16  ERROR 0 | pozostało ~13.2 h
+2026-08-03 00:40:56 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:42:50 INFO    klasyfikator   34000/228326 | 4.10 tekst/s | OK 33984  PARSE_FAIL 16  ERROR 0 | pozostało ~13.2 h
+2026-08-03 00:42:52 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 00:44:27 INFO    klasyfikator   34500/228326 | 4.12 tekst/s | OK 34484  PARSE_FAIL 16  ERROR 0 | pozostało ~13.1 h
+2026-08-03 00:44:29 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 00:46:43 INFO    klasyfikator   35000/228326 | 4.11 tekst/s | OK 34984  PARSE_FAIL 16  ERROR 0 | pozostało ~13.1 h
+2026-08-03 00:46:43 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 00:46:45 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 00:46:47 INFO    drive        Dysk: wyniki.jsonl.gz (592 kB) w 2.2s
+2026-08-03 00:49:00 INFO    klasyfikator   35500/228326 | 4.10 tekst/s | OK 35484  PARSE_FAIL 16  ERROR 0 | pozostało ~13.1 h
+2026-08-03 00:49:01 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:51:13 INFO    klasyfikator   36000/228326 | 4.10 tekst/s | OK 35984  PARSE_FAIL 16  ERROR 0 | pozostało ~13.0 h
+2026-08-03 00:51:15 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 00:53:14 INFO    klasyfikator   36500/228326 | 4.10 tekst/s | OK 36484  PARSE_FAIL 16  ERROR 0 | pozostało ~13.0 h
+2026-08-03 00:53:15 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:55:11 INFO    klasyfikator   37000/228326 | 4.10 tekst/s | OK 36984  PARSE_FAIL 16  ERROR 0 | pozostało ~13.0 h
+2026-08-03 00:55:13 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 00:57:12 INFO    klasyfikator   37500/228326 | 4.10 tekst/s | OK 37484  PARSE_FAIL 16  ERROR 0 | pozostało ~12.9 h
+2026-08-03 00:57:13 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 00:59:14 INFO    klasyfikator   38000/228326 | 4.10 tekst/s | OK 37984  PARSE_FAIL 16  ERROR 0 | pozostało ~12.9 h
+2026-08-03 00:59:16 INFO    drive        Dysk: progress.json (2 kB) w 1.6s
+2026-08-03 01:01:21 INFO    klasyfikator   38500/228326 | 4.10 tekst/s | OK 38484  PARSE_FAIL 16  ERROR 0 | pozostało ~12.9 h
+2026-08-03 01:01:23 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 01:03:30 INFO    klasyfikator   39000/228326 | 4.09 tekst/s | OK 38984  PARSE_FAIL 16  ERROR 0 | pozostało ~12.8 h
+2026-08-03 01:03:32 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 01:05:42 INFO    klasyfikator   39500/228326 | 4.09 tekst/s | OK 39484  PARSE_FAIL 16  ERROR 0 | pozostało ~12.8 h
+2026-08-03 01:05:44 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 01:07:53 INFO    klasyfikator   40000/228326 | 4.09 tekst/s | OK 39983  PARSE_FAIL 17  ERROR 0 | pozostało ~12.8 h
+2026-08-03 01:07:53 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 01:07:55 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 01:07:57 INFO    drive        Dysk: wyniki.jsonl.gz (678 kB) w 1.9s
+2026-08-03 01:10:08 INFO    klasyfikator   40500/228326 | 4.08 tekst/s | OK 40483  PARSE_FAIL 17  ERROR 0 | pozostało ~12.8 h
+2026-08-03 01:10:10 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 01:12:08 INFO    klasyfikator   41000/228326 | 4.08 tekst/s | OK 40983  PARSE_FAIL 17  ERROR 0 | pozostało ~12.7 h
+2026-08-03 01:12:11 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 01:14:12 INFO    klasyfikator   41500/228326 | 4.08 tekst/s | OK 41482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.7 h
+2026-08-03 01:14:14 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 01:16:24 INFO    klasyfikator   42000/228326 | 4.08 tekst/s | OK 41982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.7 h
+2026-08-03 01:16:26 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 01:18:28 INFO    klasyfikator   42500/228326 | 4.08 tekst/s | OK 42482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.7 h
+2026-08-03 01:18:30 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 01:20:25 INFO    klasyfikator   43000/228326 | 4.08 tekst/s | OK 42982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.6 h
+2026-08-03 01:20:27 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 01:22:18 INFO    klasyfikator   43500/228326 | 4.08 tekst/s | OK 43482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.6 h
+2026-08-03 01:22:20 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 01:24:32 INFO    klasyfikator   44000/228326 | 4.08 tekst/s | OK 43982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.6 h
+2026-08-03 01:24:34 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 01:27:02 INFO    klasyfikator   44500/228326 | 4.07 tekst/s | OK 44482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.5 h
+2026-08-03 01:27:04 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 01:29:08 INFO    klasyfikator   45000/228326 | 4.07 tekst/s | OK 44982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.5 h
+2026-08-03 01:29:08 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 01:29:10 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 01:29:12 INFO    drive        Dysk: wyniki.jsonl.gz (764 kB) w 2.2s
+2026-08-03 01:31:16 INFO    klasyfikator   45500/228326 | 4.07 tekst/s | OK 45482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.5 h
+2026-08-03 01:31:18 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 01:33:22 INFO    klasyfikator   46000/228326 | 4.07 tekst/s | OK 45982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.5 h
+2026-08-03 01:33:24 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 01:35:30 INFO    klasyfikator   46500/228326 | 4.06 tekst/s | OK 46482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.4 h
+2026-08-03 01:35:32 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 01:37:31 INFO    klasyfikator   47000/228326 | 4.06 tekst/s | OK 46982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.4 h
+2026-08-03 01:37:33 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 01:39:49 INFO    klasyfikator   47500/228326 | 4.06 tekst/s | OK 47482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.4 h
+2026-08-03 01:39:52 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 01:41:55 INFO    klasyfikator   48000/228326 | 4.06 tekst/s | OK 47982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.3 h
+2026-08-03 01:41:56 INFO    drive        Dysk: progress.json (2 kB) w 1.7s
+2026-08-03 01:43:49 INFO    klasyfikator   48500/228326 | 4.06 tekst/s | OK 48482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.3 h
+2026-08-03 01:43:51 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 01:45:51 INFO    klasyfikator   49000/228326 | 4.06 tekst/s | OK 48982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.3 h
+2026-08-03 01:45:53 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 01:48:12 INFO    klasyfikator   49500/228326 | 4.06 tekst/s | OK 49482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.2 h
+2026-08-03 01:48:14 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 01:50:09 INFO    klasyfikator   50000/228326 | 4.06 tekst/s | OK 49982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.2 h
+2026-08-03 01:50:09 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 01:50:11 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 01:50:13 INFO    drive        Dysk: wyniki.jsonl.gz (849 kB) w 2.1s
+2026-08-03 01:52:06 INFO    klasyfikator   50500/228326 | 4.06 tekst/s | OK 50482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.2 h
+2026-08-03 01:52:08 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 01:54:07 INFO    klasyfikator   51000/228326 | 4.06 tekst/s | OK 50982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.1 h
+2026-08-03 01:54:09 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 01:56:10 INFO    klasyfikator   51500/228326 | 4.06 tekst/s | OK 51482  PARSE_FAIL 18  ERROR 0 | pozostało ~12.1 h
+2026-08-03 01:56:12 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 01:58:15 INFO    klasyfikator   52000/228326 | 4.06 tekst/s | OK 51982  PARSE_FAIL 18  ERROR 0 | pozostało ~12.1 h
+2026-08-03 01:58:18 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 02:00:13 INFO    klasyfikator   52500/228326 | 4.06 tekst/s | OK 52481  PARSE_FAIL 19  ERROR 0 | pozostało ~12.0 h
+2026-08-03 02:00:15 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:02:00 INFO    klasyfikator   53000/228326 | 4.07 tekst/s | OK 52981  PARSE_FAIL 19  ERROR 0 | pozostało ~12.0 h
+2026-08-03 02:02:02 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:04:05 INFO    klasyfikator   53500/228326 | 4.07 tekst/s | OK 53481  PARSE_FAIL 19  ERROR 0 | pozostało ~11.9 h
+2026-08-03 02:04:07 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:06:02 INFO    klasyfikator   54000/228326 | 4.07 tekst/s | OK 53981  PARSE_FAIL 19  ERROR 0 | pozostało ~11.9 h
+2026-08-03 02:06:04 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 02:08:04 INFO    klasyfikator   54500/228326 | 4.07 tekst/s | OK 54481  PARSE_FAIL 19  ERROR 0 | pozostało ~11.9 h
+2026-08-03 02:08:08 INFO    drive        Dysk: progress.json (2 kB) w 3.7s
+2026-08-03 02:10:08 INFO    klasyfikator   55000/228326 | 4.07 tekst/s | OK 54981  PARSE_FAIL 19  ERROR 0 | pozostało ~11.8 h
+2026-08-03 02:10:08 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 02:10:10 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:10:12 INFO    drive        Dysk: wyniki.jsonl.gz (932 kB) w 1.9s
+2026-08-03 02:12:06 INFO    klasyfikator   55500/228326 | 4.07 tekst/s | OK 55480  PARSE_FAIL 20  ERROR 0 | pozostało ~11.8 h
+2026-08-03 02:12:08 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 02:14:09 INFO    klasyfikator   56000/228326 | 4.07 tekst/s | OK 55980  PARSE_FAIL 20  ERROR 0 | pozostało ~11.8 h
+2026-08-03 02:14:11 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:16:16 INFO    klasyfikator   56500/228326 | 4.07 tekst/s | OK 56479  PARSE_FAIL 21  ERROR 0 | pozostało ~11.7 h
+2026-08-03 02:16:18 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 02:18:23 INFO    klasyfikator   57000/228326 | 4.07 tekst/s | OK 56979  PARSE_FAIL 21  ERROR 0 | pozostało ~11.7 h
+2026-08-03 02:18:25 INFO    drive        Dysk: progress.json (2 kB) w 1.7s
+2026-08-03 02:20:31 INFO    klasyfikator   57500/228326 | 4.06 tekst/s | OK 57479  PARSE_FAIL 21  ERROR 0 | pozostało ~11.7 h
+2026-08-03 02:20:33 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 02:22:37 INFO    klasyfikator   58000/228326 | 4.06 tekst/s | OK 57979  PARSE_FAIL 21  ERROR 0 | pozostało ~11.6 h
+2026-08-03 02:22:39 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 02:24:50 INFO    klasyfikator   58500/228326 | 4.06 tekst/s | OK 58479  PARSE_FAIL 21  ERROR 0 | pozostało ~11.6 h
+2026-08-03 02:24:52 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 02:27:07 INFO    klasyfikator   59000/228326 | 4.06 tekst/s | OK 58979  PARSE_FAIL 21  ERROR 0 | pozostało ~11.6 h
+2026-08-03 02:27:09 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:29:02 INFO    klasyfikator   59500/228326 | 4.06 tekst/s | OK 59479  PARSE_FAIL 21  ERROR 0 | pozostało ~11.6 h
+2026-08-03 02:29:04 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 02:31:04 INFO    klasyfikator   60000/228326 | 4.06 tekst/s | OK 59978  PARSE_FAIL 22  ERROR 0 | pozostało ~11.5 h
+2026-08-03 02:31:04 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 02:31:06 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:31:09 INFO    drive        Dysk: wyniki.jsonl.gz (1018 kB) w 2.4s
+2026-08-03 02:33:20 INFO    klasyfikator   60500/228326 | 4.06 tekst/s | OK 60478  PARSE_FAIL 22  ERROR 0 | pozostało ~11.5 h
+2026-08-03 02:33:21 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 02:35:35 INFO    klasyfikator   61000/228326 | 4.05 tekst/s | OK 60978  PARSE_FAIL 22  ERROR 0 | pozostało ~11.5 h
+2026-08-03 02:35:37 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 02:37:50 INFO    klasyfikator   61500/228326 | 4.05 tekst/s | OK 61478  PARSE_FAIL 22  ERROR 0 | pozostało ~11.4 h
+2026-08-03 02:37:54 INFO    drive        Dysk: progress.json (2 kB) w 3.5s
+2026-08-03 02:40:06 INFO    klasyfikator   62000/228326 | 4.05 tekst/s | OK 61978  PARSE_FAIL 22  ERROR 0 | pozostało ~11.4 h
+2026-08-03 02:40:07 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:42:16 INFO    klasyfikator   62500/228326 | 4.05 tekst/s | OK 62478  PARSE_FAIL 22  ERROR 0 | pozostało ~11.4 h
+2026-08-03 02:42:17 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:44:08 INFO    klasyfikator   63000/228326 | 4.05 tekst/s | OK 62978  PARSE_FAIL 22  ERROR 0 | pozostało ~11.3 h
+2026-08-03 02:44:10 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:46:11 INFO    klasyfikator   63500/228326 | 4.05 tekst/s | OK 63478  PARSE_FAIL 22  ERROR 0 | pozostało ~11.3 h
+2026-08-03 02:46:13 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:48:20 INFO    klasyfikator   64000/228326 | 4.05 tekst/s | OK 63978  PARSE_FAIL 22  ERROR 0 | pozostało ~11.3 h
+2026-08-03 02:48:22 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:50:27 INFO    klasyfikator   64500/228326 | 4.05 tekst/s | OK 64478  PARSE_FAIL 22  ERROR 0 | pozostało ~11.2 h
+2026-08-03 02:50:29 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 02:52:26 INFO    klasyfikator   65000/228326 | 4.05 tekst/s | OK 64978  PARSE_FAIL 22  ERROR 0 | pozostało ~11.2 h
+2026-08-03 02:52:26 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 02:52:28 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:52:31 INFO    drive        Dysk: wyniki.jsonl.gz (1103 kB) w 2.2s
+2026-08-03 02:54:33 INFO    klasyfikator   65500/228326 | 4.05 tekst/s | OK 65478  PARSE_FAIL 22  ERROR 0 | pozostało ~11.2 h
+2026-08-03 02:54:35 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 02:56:41 INFO    klasyfikator   66000/228326 | 4.05 tekst/s | OK 65977  PARSE_FAIL 23  ERROR 0 | pozostało ~11.1 h
+2026-08-03 02:56:43 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 02:58:43 INFO    klasyfikator   66500/228326 | 4.05 tekst/s | OK 66477  PARSE_FAIL 23  ERROR 0 | pozostało ~11.1 h
+2026-08-03 02:58:45 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:00:52 INFO    klasyfikator   67000/228326 | 4.04 tekst/s | OK 66977  PARSE_FAIL 23  ERROR 0 | pozostało ~11.1 h
+2026-08-03 03:00:54 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:02:48 INFO    klasyfikator   67500/228326 | 4.05 tekst/s | OK 67477  PARSE_FAIL 23  ERROR 0 | pozostało ~11.0 h
+2026-08-03 03:02:50 INFO    drive        Dysk: progress.json (2 kB) w 1.7s
+2026-08-03 03:04:52 INFO    klasyfikator   68000/228326 | 4.05 tekst/s | OK 67977  PARSE_FAIL 23  ERROR 0 | pozostało ~11.0 h
+2026-08-03 03:04:54 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 03:07:04 INFO    klasyfikator   68500/228326 | 4.04 tekst/s | OK 68477  PARSE_FAIL 23  ERROR 0 | pozostało ~11.0 h
+2026-08-03 03:07:06 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:09:16 INFO    klasyfikator   69000/228326 | 4.04 tekst/s | OK 68977  PARSE_FAIL 23  ERROR 0 | pozostało ~10.9 h
+2026-08-03 03:09:18 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:11:25 INFO    klasyfikator   69500/228326 | 4.04 tekst/s | OK 69477  PARSE_FAIL 23  ERROR 0 | pozostało ~10.9 h
+2026-08-03 03:11:27 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:13:34 INFO    klasyfikator   70000/228326 | 4.04 tekst/s | OK 69977  PARSE_FAIL 23  ERROR 0 | pozostało ~10.9 h
+2026-08-03 03:13:34 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 03:13:36 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 03:13:38 INFO    drive        Dysk: wyniki.jsonl.gz (1189 kB) w 2.1s
+2026-08-03 03:15:34 INFO    klasyfikator   70500/228326 | 4.04 tekst/s | OK 70477  PARSE_FAIL 23  ERROR 0 | pozostało ~10.9 h
+2026-08-03 03:15:36 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:18:00 INFO    klasyfikator   71000/228326 | 4.04 tekst/s | OK 70977  PARSE_FAIL 23  ERROR 0 | pozostało ~10.8 h
+2026-08-03 03:18:01 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:20:10 INFO    klasyfikator   71500/228326 | 4.03 tekst/s | OK 71477  PARSE_FAIL 23  ERROR 0 | pozostało ~10.8 h
+2026-08-03 03:20:12 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:22:05 INFO    klasyfikator   72000/228326 | 4.04 tekst/s | OK 71976  PARSE_FAIL 24  ERROR 0 | pozostało ~10.8 h
+2026-08-03 03:22:06 INFO    drive        Dysk: progress.json (2 kB) w 1.7s
+2026-08-03 03:24:08 INFO    klasyfikator   72500/228326 | 4.04 tekst/s | OK 72475  PARSE_FAIL 25  ERROR 0 | pozostało ~10.7 h
+2026-08-03 03:24:09 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:26:05 INFO    klasyfikator   73000/228326 | 4.04 tekst/s | OK 72975  PARSE_FAIL 25  ERROR 0 | pozostało ~10.7 h
+2026-08-03 03:26:07 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:28:20 INFO    klasyfikator   73500/228326 | 4.04 tekst/s | OK 73475  PARSE_FAIL 25  ERROR 0 | pozostało ~10.7 h
+2026-08-03 03:28:21 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:30:22 INFO    klasyfikator   74000/228326 | 4.04 tekst/s | OK 73975  PARSE_FAIL 25  ERROR 0 | pozostało ~10.6 h
+2026-08-03 03:30:24 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:32:44 INFO    klasyfikator   74500/228326 | 4.03 tekst/s | OK 74475  PARSE_FAIL 25  ERROR 0 | pozostało ~10.6 h
+2026-08-03 03:32:46 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:34:59 INFO    klasyfikator   75000/228326 | 4.03 tekst/s | OK 74975  PARSE_FAIL 25  ERROR 0 | pozostało ~10.6 h
+2026-08-03 03:34:59 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 03:35:01 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:35:03 INFO    drive        Dysk: wyniki.jsonl.gz (1275 kB) w 2.4s
+2026-08-03 03:36:51 INFO    klasyfikator   75500/228326 | 4.03 tekst/s | OK 75475  PARSE_FAIL 25  ERROR 0 | pozostało ~10.5 h
+2026-08-03 03:36:53 INFO    drive        Dysk: progress.json (2 kB) w 2.3s
+2026-08-03 03:38:54 INFO    klasyfikator   76000/228326 | 4.03 tekst/s | OK 75968  PARSE_FAIL 32  ERROR 0 | pozostało ~10.5 h
+2026-08-03 03:38:55 INFO    drive        Dysk: progress.json (2 kB) w 1.5s
+2026-08-03 03:40:59 INFO    klasyfikator   76500/228326 | 4.03 tekst/s | OK 76468  PARSE_FAIL 32  ERROR 0 | pozostało ~10.5 h
+2026-08-03 03:41:01 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:43:11 INFO    klasyfikator   77000/228326 | 4.03 tekst/s | OK 76968  PARSE_FAIL 32  ERROR 0 | pozostało ~10.4 h
+2026-08-03 03:43:13 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:45:08 INFO    klasyfikator   77500/228326 | 4.03 tekst/s | OK 77468  PARSE_FAIL 32  ERROR 0 | pozostało ~10.4 h
+2026-08-03 03:45:10 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:46:59 INFO    klasyfikator   78000/228326 | 4.03 tekst/s | OK 77968  PARSE_FAIL 32  ERROR 0 | pozostało ~10.4 h
+2026-08-03 03:47:01 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:48:54 INFO    klasyfikator   78500/228326 | 4.04 tekst/s | OK 78467  PARSE_FAIL 33  ERROR 0 | pozostało ~10.3 h
+2026-08-03 03:48:56 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 03:51:11 INFO    klasyfikator   79000/228326 | 4.03 tekst/s | OK 78967  PARSE_FAIL 33  ERROR 0 | pozostało ~10.3 h
+2026-08-03 03:51:13 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:53:18 INFO    klasyfikator   79500/228326 | 4.03 tekst/s | OK 79467  PARSE_FAIL 33  ERROR 0 | pozostało ~10.3 h
+2026-08-03 03:53:20 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:55:06 INFO    klasyfikator   80000/228326 | 4.04 tekst/s | OK 79967  PARSE_FAIL 33  ERROR 0 | pozostało ~10.2 h
+2026-08-03 03:55:06 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 03:55:08 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:55:10 INFO    drive        Dysk: wyniki.jsonl.gz (1360 kB) w 1.8s
+2026-08-03 03:57:29 INFO    klasyfikator   80500/228326 | 4.03 tekst/s | OK 80467  PARSE_FAIL 33  ERROR 0 | pozostało ~10.2 h
+2026-08-03 03:57:31 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 03:59:39 INFO    klasyfikator   81000/228326 | 4.03 tekst/s | OK 80967  PARSE_FAIL 33  ERROR 0 | pozostało ~10.2 h
+2026-08-03 03:59:41 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:02:02 INFO    klasyfikator   81500/228326 | 4.03 tekst/s | OK 81466  PARSE_FAIL 34  ERROR 0 | pozostało ~10.1 h
+2026-08-03 04:02:04 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 04:04:06 INFO    klasyfikator   82000/228326 | 4.03 tekst/s | OK 81966  PARSE_FAIL 34  ERROR 0 | pozostało ~10.1 h
+2026-08-03 04:04:08 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 04:06:26 INFO    klasyfikator   82500/228326 | 4.02 tekst/s | OK 82466  PARSE_FAIL 34  ERROR 0 | pozostało ~10.1 h
+2026-08-03 04:06:27 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 04:08:31 INFO    klasyfikator   83000/228326 | 4.02 tekst/s | OK 82966  PARSE_FAIL 34  ERROR 0 | pozostało ~10.0 h
+2026-08-03 04:08:33 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:10:45 INFO    klasyfikator   83500/228326 | 4.02 tekst/s | OK 83466  PARSE_FAIL 34  ERROR 0 | pozostało ~10.0 h
+2026-08-03 04:10:47 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 04:12:53 INFO    klasyfikator   84000/228326 | 4.02 tekst/s | OK 83966  PARSE_FAIL 34  ERROR 0 | pozostało ~10.0 h
+2026-08-03 04:12:55 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:15:06 INFO    klasyfikator   84500/228326 | 4.02 tekst/s | OK 84466  PARSE_FAIL 34  ERROR 0 | pozostało ~9.9 h
+2026-08-03 04:15:08 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 04:17:23 INFO    klasyfikator   85000/228326 | 4.02 tekst/s | OK 84965  PARSE_FAIL 35  ERROR 0 | pozostało ~9.9 h
+2026-08-03 04:17:23 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 04:17:25 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 04:17:27 INFO    drive        Dysk: wyniki.jsonl.gz (1448 kB) w 1.9s
+2026-08-03 04:19:30 INFO    klasyfikator   85500/228326 | 4.02 tekst/s | OK 85464  PARSE_FAIL 36  ERROR 0 | pozostało ~9.9 h
+2026-08-03 04:19:32 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 04:21:37 INFO    klasyfikator   86000/228326 | 4.02 tekst/s | OK 85964  PARSE_FAIL 36  ERROR 0 | pozostało ~9.8 h
+2026-08-03 04:21:38 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 04:23:50 INFO    klasyfikator   86500/228326 | 4.01 tekst/s | OK 86464  PARSE_FAIL 36  ERROR 0 | pozostało ~9.8 h
+2026-08-03 04:23:52 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 04:26:05 INFO    klasyfikator   87000/228326 | 4.01 tekst/s | OK 86964  PARSE_FAIL 36  ERROR 0 | pozostało ~9.8 h
+2026-08-03 04:26:07 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 04:28:15 INFO    klasyfikator   87500/228326 | 4.01 tekst/s | OK 87464  PARSE_FAIL 36  ERROR 0 | pozostało ~9.7 h
+2026-08-03 04:28:17 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:30:21 INFO    klasyfikator   88000/228326 | 4.01 tekst/s | OK 87964  PARSE_FAIL 36  ERROR 0 | pozostało ~9.7 h
+2026-08-03 04:30:23 INFO    drive        Dysk: progress.json (2 kB) w 2.3s
+2026-08-03 04:32:34 INFO    klasyfikator   88500/228326 | 4.01 tekst/s | OK 88464  PARSE_FAIL 36  ERROR 0 | pozostało ~9.7 h
+2026-08-03 04:32:36 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 04:34:23 INFO    klasyfikator   89000/228326 | 4.01 tekst/s | OK 88964  PARSE_FAIL 36  ERROR 0 | pozostało ~9.6 h
+2026-08-03 04:34:25 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:36:37 INFO    klasyfikator   89500/228326 | 4.01 tekst/s | OK 89464  PARSE_FAIL 36  ERROR 0 | pozostało ~9.6 h
+2026-08-03 04:36:38 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 04:38:47 INFO    klasyfikator   90000/228326 | 4.01 tekst/s | OK 89964  PARSE_FAIL 36  ERROR 0 | pozostało ~9.6 h
+2026-08-03 04:38:47 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 04:38:49 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 04:38:51 INFO    drive        Dysk: wyniki.jsonl.gz (1535 kB) w 1.9s
+2026-08-03 04:40:49 INFO    klasyfikator   90500/228326 | 4.01 tekst/s | OK 90464  PARSE_FAIL 36  ERROR 0 | pozostało ~9.5 h
+2026-08-03 04:40:51 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:42:56 INFO    klasyfikator   91000/228326 | 4.01 tekst/s | OK 90958  PARSE_FAIL 42  ERROR 0 | pozostało ~9.5 h
+2026-08-03 04:42:58 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:45:07 INFO    klasyfikator   91500/228326 | 4.01 tekst/s | OK 91448  PARSE_FAIL 52  ERROR 0 | pozostało ~9.5 h
+2026-08-03 04:45:09 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 04:47:08 INFO    klasyfikator   92000/228326 | 4.01 tekst/s | OK 91948  PARSE_FAIL 52  ERROR 0 | pozostało ~9.4 h
+2026-08-03 04:47:10 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:49:09 INFO    klasyfikator   92500/228326 | 4.01 tekst/s | OK 92448  PARSE_FAIL 52  ERROR 0 | pozostało ~9.4 h
+2026-08-03 04:49:11 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:52:00 INFO    klasyfikator   93000/228326 | 4.00 tekst/s | OK 92913  PARSE_FAIL 87  ERROR 0 | pozostało ~9.4 h
+2026-08-03 04:52:02 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 04:54:17 INFO    klasyfikator   93500/228326 | 4.00 tekst/s | OK 93413  PARSE_FAIL 87  ERROR 0 | pozostało ~9.4 h
+2026-08-03 04:54:19 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 04:56:19 INFO    klasyfikator   94000/228326 | 4.00 tekst/s | OK 93913  PARSE_FAIL 87  ERROR 0 | pozostało ~9.3 h
+2026-08-03 04:56:22 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 04:57:52 INFO    klasyfikator   94500/228326 | 4.01 tekst/s | OK 94413  PARSE_FAIL 87  ERROR 0 | pozostało ~9.3 h
+2026-08-03 04:57:55 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 04:59:56 INFO    klasyfikator   95000/228326 | 4.01 tekst/s | OK 94913  PARSE_FAIL 87  ERROR 0 | pozostało ~9.2 h
+2026-08-03 04:59:56 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 04:59:58 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 05:00:00 INFO    drive        Dysk: wyniki.jsonl.gz (1625 kB) w 1.8s
+2026-08-03 05:01:45 INFO    klasyfikator   95500/228326 | 4.01 tekst/s | OK 95413  PARSE_FAIL 87  ERROR 0 | pozostało ~9.2 h
+2026-08-03 05:01:47 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 05:04:03 INFO    klasyfikator   96000/228326 | 4.01 tekst/s | OK 95912  PARSE_FAIL 88  ERROR 0 | pozostało ~9.2 h
+2026-08-03 05:04:05 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:06:04 INFO    klasyfikator   96500/228326 | 4.01 tekst/s | OK 96412  PARSE_FAIL 88  ERROR 0 | pozostało ~9.1 h
+2026-08-03 05:06:06 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 05:07:40 INFO    klasyfikator   97000/228326 | 4.01 tekst/s | OK 96911  PARSE_FAIL 89  ERROR 0 | pozostało ~9.1 h
+2026-08-03 05:07:43 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 05:09:53 INFO    klasyfikator   97500/228326 | 4.01 tekst/s | OK 97411  PARSE_FAIL 89  ERROR 0 | pozostało ~9.1 h
+2026-08-03 05:09:55 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 05:12:05 INFO    klasyfikator   98000/228326 | 4.01 tekst/s | OK 97911  PARSE_FAIL 89  ERROR 0 | pozostało ~9.0 h
+2026-08-03 05:12:07 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:14:06 INFO    klasyfikator   98500/228326 | 4.01 tekst/s | OK 98411  PARSE_FAIL 89  ERROR 0 | pozostało ~9.0 h
+2026-08-03 05:14:08 INFO    drive        Dysk: progress.json (2 kB) w 1.7s
+2026-08-03 05:16:25 INFO    klasyfikator   99000/228326 | 4.01 tekst/s | OK 98911  PARSE_FAIL 89  ERROR 0 | pozostało ~9.0 h
+2026-08-03 05:16:27 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:18:43 INFO    klasyfikator   99500/228326 | 4.01 tekst/s | OK 99399  PARSE_FAIL 101  ERROR 0 | pozostało ~8.9 h
+2026-08-03 05:18:44 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 05:20:42 INFO    klasyfikator  100000/228326 | 4.01 tekst/s | OK 99899  PARSE_FAIL 101  ERROR 0 | pozostało ~8.9 h
+2026-08-03 05:20:42 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 05:20:44 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:20:47 INFO    drive        Dysk: wyniki.jsonl.gz (1712 kB) w 2.1s
+2026-08-03 05:22:56 INFO    klasyfikator  100500/228326 | 4.01 tekst/s | OK 100399  PARSE_FAIL 101  ERROR 0 | pozostało ~8.9 h
+2026-08-03 05:22:58 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 05:24:58 INFO    klasyfikator  101000/228326 | 4.01 tekst/s | OK 100899  PARSE_FAIL 101  ERROR 0 | pozostało ~8.8 h
+2026-08-03 05:25:00 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 05:26:59 INFO    klasyfikator  101500/228326 | 4.01 tekst/s | OK 101399  PARSE_FAIL 101  ERROR 0 | pozostało ~8.8 h
+2026-08-03 05:27:01 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:29:09 INFO    klasyfikator  102000/228326 | 4.01 tekst/s | OK 101899  PARSE_FAIL 101  ERROR 0 | pozostało ~8.8 h
+2026-08-03 05:29:11 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 05:31:26 INFO    klasyfikator  102500/228326 | 4.00 tekst/s | OK 102398  PARSE_FAIL 102  ERROR 0 | pozostało ~8.7 h
+2026-08-03 05:31:28 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 05:33:28 INFO    klasyfikator  103000/228326 | 4.00 tekst/s | OK 102898  PARSE_FAIL 102  ERROR 0 | pozostało ~8.7 h
+2026-08-03 05:33:30 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:35:39 INFO    klasyfikator  103500/228326 | 4.00 tekst/s | OK 103398  PARSE_FAIL 102  ERROR 0 | pozostało ~8.7 h
+2026-08-03 05:35:41 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 05:37:30 INFO    klasyfikator  104000/228326 | 4.01 tekst/s | OK 103898  PARSE_FAIL 102  ERROR 0 | pozostało ~8.6 h
+2026-08-03 05:37:32 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 05:39:44 INFO    klasyfikator  104500/228326 | 4.00 tekst/s | OK 104396  PARSE_FAIL 104  ERROR 0 | pozostało ~8.6 h
+2026-08-03 05:39:47 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:41:53 INFO    klasyfikator  105000/228326 | 4.00 tekst/s | OK 104896  PARSE_FAIL 104  ERROR 0 | pozostało ~8.6 h
+2026-08-03 05:41:53 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 05:41:55 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 05:41:57 INFO    drive        Dysk: wyniki.jsonl.gz (1798 kB) w 2.0s
+2026-08-03 05:44:04 INFO    klasyfikator  105500/228326 | 4.00 tekst/s | OK 105396  PARSE_FAIL 104  ERROR 0 | pozostało ~8.5 h
+2026-08-03 05:44:06 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:46:18 INFO    klasyfikator  106000/228326 | 4.00 tekst/s | OK 105896  PARSE_FAIL 104  ERROR 0 | pozostało ~8.5 h
+2026-08-03 05:46:20 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 05:48:41 INFO    klasyfikator  106500/228326 | 4.00 tekst/s | OK 106396  PARSE_FAIL 104  ERROR 0 | pozostało ~8.5 h
+2026-08-03 05:48:43 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 05:50:47 INFO    klasyfikator  107000/228326 | 4.00 tekst/s | OK 106896  PARSE_FAIL 104  ERROR 0 | pozostało ~8.4 h
+2026-08-03 05:50:49 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:52:44 INFO    klasyfikator  107500/228326 | 4.00 tekst/s | OK 107396  PARSE_FAIL 104  ERROR 0 | pozostało ~8.4 h
+2026-08-03 05:52:46 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:54:52 INFO    klasyfikator  108000/228326 | 4.00 tekst/s | OK 107895  PARSE_FAIL 105  ERROR 0 | pozostało ~8.4 h
+2026-08-03 05:54:54 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 05:56:50 INFO    klasyfikator  108500/228326 | 4.00 tekst/s | OK 108395  PARSE_FAIL 105  ERROR 0 | pozostało ~8.3 h
+2026-08-03 05:56:52 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 05:58:53 INFO    klasyfikator  109000/228326 | 4.00 tekst/s | OK 108895  PARSE_FAIL 105  ERROR 0 | pozostało ~8.3 h
+2026-08-03 05:58:55 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 06:01:01 INFO    klasyfikator  109500/228326 | 4.00 tekst/s | OK 109395  PARSE_FAIL 105  ERROR 0 | pozostało ~8.3 h
+2026-08-03 06:01:03 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 06:03:08 INFO    klasyfikator  110000/228326 | 4.00 tekst/s | OK 109895  PARSE_FAIL 105  ERROR 0 | pozostało ~8.2 h
+2026-08-03 06:03:08 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 06:03:10 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 06:03:13 INFO    drive        Dysk: wyniki.jsonl.gz (1884 kB) w 2.0s
+2026-08-03 06:05:10 INFO    klasyfikator  110500/228326 | 4.00 tekst/s | OK 110395  PARSE_FAIL 105  ERROR 0 | pozostało ~8.2 h
+2026-08-03 06:05:12 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 06:07:02 INFO    klasyfikator  111000/228326 | 4.00 tekst/s | OK 110892  PARSE_FAIL 108  ERROR 0 | pozostało ~8.1 h
+2026-08-03 06:07:04 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 06:09:03 INFO    klasyfikator  111500/228326 | 4.00 tekst/s | OK 111391  PARSE_FAIL 109  ERROR 0 | pozostało ~8.1 h
+2026-08-03 06:09:05 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 06:11:17 INFO    klasyfikator  112000/228326 | 4.00 tekst/s | OK 111891  PARSE_FAIL 109  ERROR 0 | pozostało ~8.1 h
+2026-08-03 06:11:19 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 06:13:32 INFO    klasyfikator  112500/228326 | 4.00 tekst/s | OK 112391  PARSE_FAIL 109  ERROR 0 | pozostało ~8.0 h
+2026-08-03 06:13:34 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 06:15:45 INFO    klasyfikator  113000/228326 | 4.00 tekst/s | OK 112891  PARSE_FAIL 109  ERROR 0 | pozostało ~8.0 h
+2026-08-03 06:15:47 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 06:17:53 INFO    klasyfikator  113500/228326 | 4.00 tekst/s | OK 113389  PARSE_FAIL 111  ERROR 0 | pozostało ~8.0 h
+2026-08-03 06:17:55 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 06:19:56 INFO    klasyfikator  114000/228326 | 4.00 tekst/s | OK 113888  PARSE_FAIL 112  ERROR 0 | pozostało ~7.9 h
+2026-08-03 06:19:58 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 06:22:04 INFO    klasyfikator  114500/228326 | 4.00 tekst/s | OK 114385  PARSE_FAIL 115  ERROR 0 | pozostało ~7.9 h
+2026-08-03 06:22:05 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 06:24:10 INFO    klasyfikator  115000/228326 | 4.00 tekst/s | OK 114885  PARSE_FAIL 115  ERROR 0 | pozostało ~7.9 h
+2026-08-03 06:24:10 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 06:24:12 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 06:24:14 INFO    drive        Dysk: wyniki.jsonl.gz (1973 kB) w 1.9s
+2026-08-03 06:26:10 INFO    klasyfikator  115500/228326 | 4.00 tekst/s | OK 115385  PARSE_FAIL 115  ERROR 0 | pozostało ~7.8 h
+2026-08-03 06:26:11 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 06:28:30 INFO    klasyfikator  116000/228326 | 4.00 tekst/s | OK 115880  PARSE_FAIL 120  ERROR 0 | pozostało ~7.8 h
+2026-08-03 06:28:32 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 06:31:05 INFO    klasyfikator  116500/228326 | 3.99 tekst/s | OK 116376  PARSE_FAIL 124  ERROR 0 | pozostało ~7.8 h
+2026-08-03 06:31:07 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 06:33:09 INFO    klasyfikator  117000/228326 | 3.99 tekst/s | OK 116876  PARSE_FAIL 124  ERROR 0 | pozostało ~7.7 h
+2026-08-03 06:33:11 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 06:35:03 INFO    klasyfikator  117500/228326 | 3.99 tekst/s | OK 117376  PARSE_FAIL 124  ERROR 0 | pozostało ~7.7 h
+2026-08-03 06:35:05 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 06:36:58 INFO    klasyfikator  118000/228326 | 4.00 tekst/s | OK 117876  PARSE_FAIL 124  ERROR 0 | pozostało ~7.7 h
+2026-08-03 06:37:00 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 06:39:09 INFO    klasyfikator  118500/228326 | 3.99 tekst/s | OK 118376  PARSE_FAIL 124  ERROR 0 | pozostało ~7.6 h
+2026-08-03 06:39:11 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 06:41:08 INFO    klasyfikator  119000/228326 | 4.00 tekst/s | OK 118873  PARSE_FAIL 127  ERROR 0 | pozostało ~7.6 h
+2026-08-03 06:41:11 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 06:43:10 INFO    klasyfikator  119500/228326 | 4.00 tekst/s | OK 119370  PARSE_FAIL 130  ERROR 0 | pozostało ~7.6 h
+2026-08-03 06:43:12 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 06:45:15 INFO    klasyfikator  120000/228326 | 4.00 tekst/s | OK 119863  PARSE_FAIL 137  ERROR 0 | pozostało ~7.5 h
+2026-08-03 06:45:15 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 06:45:17 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 06:45:20 INFO    drive        Dysk: wyniki.jsonl.gz (2064 kB) w 2.0s
+2026-08-03 06:47:17 INFO    klasyfikator  120500/228326 | 4.00 tekst/s | OK 120363  PARSE_FAIL 137  ERROR 0 | pozostało ~7.5 h
+2026-08-03 06:47:19 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 06:49:28 INFO    klasyfikator  121000/228326 | 4.00 tekst/s | OK 120863  PARSE_FAIL 137  ERROR 0 | pozostało ~7.5 h
+2026-08-03 06:49:30 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 06:51:31 INFO    klasyfikator  121500/228326 | 4.00 tekst/s | OK 121363  PARSE_FAIL 137  ERROR 0 | pozostało ~7.4 h
+2026-08-03 06:51:33 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 06:53:45 INFO    klasyfikator  122000/228326 | 3.99 tekst/s | OK 121863  PARSE_FAIL 137  ERROR 0 | pozostało ~7.4 h
+2026-08-03 06:53:47 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 06:55:53 INFO    klasyfikator  122500/228326 | 3.99 tekst/s | OK 122363  PARSE_FAIL 137  ERROR 0 | pozostało ~7.4 h
+2026-08-03 06:55:55 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 06:58:11 INFO    klasyfikator  123000/228326 | 3.99 tekst/s | OK 122862  PARSE_FAIL 138  ERROR 0 | pozostało ~7.3 h
+2026-08-03 06:58:13 INFO    drive        Dysk: progress.json (2 kB) w 2.3s
+2026-08-03 07:00:53 INFO    klasyfikator  123500/228326 | 3.99 tekst/s | OK 123359  PARSE_FAIL 141  ERROR 0 | pozostało ~7.3 h
+2026-08-03 07:00:55 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:03:00 INFO    klasyfikator  124000/228326 | 3.99 tekst/s | OK 123859  PARSE_FAIL 141  ERROR 0 | pozostało ~7.3 h
+2026-08-03 07:03:02 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 07:05:14 INFO    klasyfikator  124500/228326 | 3.99 tekst/s | OK 124359  PARSE_FAIL 141  ERROR 0 | pozostało ~7.2 h
+2026-08-03 07:05:16 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:07:20 INFO    klasyfikator  125000/228326 | 3.99 tekst/s | OK 124859  PARSE_FAIL 141  ERROR 0 | pozostało ~7.2 h
+2026-08-03 07:07:20 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 07:07:22 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 07:07:24 INFO    drive        Dysk: wyniki.jsonl.gz (2153 kB) w 2.4s
+2026-08-03 07:09:31 INFO    klasyfikator  125500/228326 | 3.99 tekst/s | OK 125359  PARSE_FAIL 141  ERROR 0 | pozostało ~7.2 h
+2026-08-03 07:09:33 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:11:44 INFO    klasyfikator  126000/228326 | 3.99 tekst/s | OK 125859  PARSE_FAIL 141  ERROR 0 | pozostało ~7.1 h
+2026-08-03 07:11:46 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:13:54 INFO    klasyfikator  126500/228326 | 3.98 tekst/s | OK 126359  PARSE_FAIL 141  ERROR 0 | pozostało ~7.1 h
+2026-08-03 07:13:56 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:15:54 INFO    klasyfikator  127000/228326 | 3.99 tekst/s | OK 126859  PARSE_FAIL 141  ERROR 0 | pozostało ~7.1 h
+2026-08-03 07:15:56 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:18:02 INFO    klasyfikator  127500/228326 | 3.98 tekst/s | OK 127358  PARSE_FAIL 142  ERROR 0 | pozostało ~7.0 h
+2026-08-03 07:18:03 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:20:30 INFO    klasyfikator  128000/228326 | 3.98 tekst/s | OK 127858  PARSE_FAIL 142  ERROR 0 | pozostało ~7.0 h
+2026-08-03 07:20:32 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 07:22:57 INFO    klasyfikator  128500/228326 | 3.98 tekst/s | OK 128357  PARSE_FAIL 143  ERROR 0 | pozostało ~7.0 h
+2026-08-03 07:22:59 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 07:25:08 INFO    klasyfikator  129000/228326 | 3.98 tekst/s | OK 128857  PARSE_FAIL 143  ERROR 0 | pozostało ~6.9 h
+2026-08-03 07:25:11 INFO    drive        Dysk: progress.json (2 kB) w 2.5s
+2026-08-03 07:27:19 INFO    klasyfikator  129500/228326 | 3.98 tekst/s | OK 129357  PARSE_FAIL 143  ERROR 0 | pozostało ~6.9 h
+2026-08-03 07:27:21 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:29:24 INFO    klasyfikator  130000/228326 | 3.98 tekst/s | OK 129857  PARSE_FAIL 143  ERROR 0 | pozostało ~6.9 h
+2026-08-03 07:29:24 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 07:29:26 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:29:29 INFO    drive        Dysk: wyniki.jsonl.gz (2240 kB) w 2.5s
+2026-08-03 07:32:46 INFO    klasyfikator  130500/228326 | 3.97 tekst/s | OK 130300  PARSE_FAIL 200  ERROR 0 | pozostało ~6.8 h
+2026-08-03 07:32:48 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 07:34:54 INFO    klasyfikator  131000/228326 | 3.97 tekst/s | OK 130800  PARSE_FAIL 200  ERROR 0 | pozostało ~6.8 h
+2026-08-03 07:34:56 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:37:05 INFO    klasyfikator  131500/228326 | 3.97 tekst/s | OK 131300  PARSE_FAIL 200  ERROR 0 | pozostało ~6.8 h
+2026-08-03 07:37:07 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:39:16 INFO    klasyfikator  132000/228326 | 3.97 tekst/s | OK 131800  PARSE_FAIL 200  ERROR 0 | pozostało ~6.7 h
+2026-08-03 07:39:18 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:41:52 INFO    klasyfikator  132500/228326 | 3.96 tekst/s | OK 132300  PARSE_FAIL 200  ERROR 0 | pozostało ~6.7 h
+2026-08-03 07:41:54 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:43:58 INFO    klasyfikator  133000/228326 | 3.96 tekst/s | OK 132798  PARSE_FAIL 202  ERROR 0 | pozostało ~6.7 h
+2026-08-03 07:44:00 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:46:03 INFO    klasyfikator  133500/228326 | 3.96 tekst/s | OK 133298  PARSE_FAIL 202  ERROR 0 | pozostało ~6.6 h
+2026-08-03 07:46:05 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:48:13 INFO    klasyfikator  134000/228326 | 3.96 tekst/s | OK 133797  PARSE_FAIL 203  ERROR 0 | pozostało ~6.6 h
+2026-08-03 07:48:15 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:50:17 INFO    klasyfikator  134500/228326 | 3.96 tekst/s | OK 134294  PARSE_FAIL 206  ERROR 0 | pozostało ~6.6 h
+2026-08-03 07:50:19 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:52:23 INFO    klasyfikator  135000/228326 | 3.96 tekst/s | OK 134794  PARSE_FAIL 206  ERROR 0 | pozostało ~6.5 h
+2026-08-03 07:52:23 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 07:52:25 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:52:27 INFO    drive        Dysk: wyniki.jsonl.gz (2335 kB) w 1.9s
+2026-08-03 07:54:36 INFO    klasyfikator  135500/228326 | 3.96 tekst/s | OK 135294  PARSE_FAIL 206  ERROR 0 | pozostało ~6.5 h
+2026-08-03 07:54:38 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 07:56:49 INFO    klasyfikator  136000/228326 | 3.96 tekst/s | OK 135794  PARSE_FAIL 206  ERROR 0 | pozostało ~6.5 h
+2026-08-03 07:56:51 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 07:58:53 INFO    klasyfikator  136500/228326 | 3.96 tekst/s | OK 136292  PARSE_FAIL 208  ERROR 0 | pozostało ~6.4 h
+2026-08-03 07:58:55 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 08:00:54 INFO    klasyfikator  137000/228326 | 3.96 tekst/s | OK 136792  PARSE_FAIL 208  ERROR 0 | pozostało ~6.4 h
+2026-08-03 08:00:56 INFO    drive        Dysk: progress.json (2 kB) w 2.3s
+2026-08-03 08:03:23 INFO    klasyfikator  137500/228326 | 3.96 tekst/s | OK 137291  PARSE_FAIL 209  ERROR 0 | pozostało ~6.4 h
+2026-08-03 08:03:25 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 08:05:28 INFO    klasyfikator  138000/228326 | 3.96 tekst/s | OK 137791  PARSE_FAIL 209  ERROR 0 | pozostało ~6.3 h
+2026-08-03 08:05:30 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 08:07:40 INFO    klasyfikator  138500/228326 | 3.96 tekst/s | OK 138291  PARSE_FAIL 209  ERROR 0 | pozostało ~6.3 h
+2026-08-03 08:07:42 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 08:09:49 INFO    klasyfikator  139000/228326 | 3.96 tekst/s | OK 138791  PARSE_FAIL 209  ERROR 0 | pozostało ~6.3 h
+2026-08-03 08:09:51 INFO    drive        Dysk: progress.json (2 kB) w 2.3s
+2026-08-03 08:12:05 INFO    klasyfikator  139500/228326 | 3.96 tekst/s | OK 139290  PARSE_FAIL 210  ERROR 0 | pozostało ~6.2 h
+2026-08-03 08:12:07 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 08:14:21 INFO    klasyfikator  140000/228326 | 3.96 tekst/s | OK 139790  PARSE_FAIL 210  ERROR 0 | pozostało ~6.2 h
+2026-08-03 08:14:21 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 08:14:23 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 08:14:26 INFO    drive        Dysk: wyniki.jsonl.gz (2424 kB) w 2.2s
+2026-08-03 08:16:33 INFO    klasyfikator  140500/228326 | 3.96 tekst/s | OK 140284  PARSE_FAIL 216  ERROR 0 | pozostało ~6.2 h
+2026-08-03 08:16:34 INFO    drive        Dysk: progress.json (2 kB) w 1.6s
+2026-08-03 08:18:48 INFO    klasyfikator  141000/228326 | 3.96 tekst/s | OK 140773  PARSE_FAIL 227  ERROR 0 | pozostało ~6.1 h
+2026-08-03 08:18:50 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 08:21:01 INFO    klasyfikator  141500/228326 | 3.96 tekst/s | OK 141272  PARSE_FAIL 228  ERROR 0 | pozostało ~6.1 h
+2026-08-03 08:21:03 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 08:23:13 INFO    klasyfikator  142000/228326 | 3.95 tekst/s | OK 141772  PARSE_FAIL 228  ERROR 0 | pozostało ~6.1 h
+2026-08-03 08:23:16 INFO    drive        Dysk: progress.json (2 kB) w 2.5s
+2026-08-03 08:25:15 INFO    klasyfikator  142500/228326 | 3.96 tekst/s | OK 142270  PARSE_FAIL 230  ERROR 0 | pozostało ~6.0 h
+2026-08-03 08:25:17 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 08:27:33 INFO    klasyfikator  143000/228326 | 3.95 tekst/s | OK 142760  PARSE_FAIL 240  ERROR 0 | pozostało ~6.0 h
+2026-08-03 08:27:35 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 08:29:32 INFO    klasyfikator  143500/228326 | 3.95 tekst/s | OK 143260  PARSE_FAIL 240  ERROR 0 | pozostało ~6.0 h
+2026-08-03 08:29:34 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 08:31:45 INFO    klasyfikator  144000/228326 | 3.95 tekst/s | OK 143760  PARSE_FAIL 240  ERROR 0 | pozostało ~5.9 h
+2026-08-03 08:31:47 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 08:34:03 INFO    klasyfikator  144500/228326 | 3.95 tekst/s | OK 144260  PARSE_FAIL 240  ERROR 0 | pozostało ~5.9 h
+2026-08-03 08:34:05 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 08:36:19 INFO    klasyfikator  145000/228326 | 3.95 tekst/s | OK 144760  PARSE_FAIL 240  ERROR 0 | pozostało ~5.9 h
+2026-08-03 08:36:19 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 08:36:21 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 08:36:23 INFO    drive        Dysk: wyniki.jsonl.gz (2517 kB) w 2.0s
+2026-08-03 08:38:34 INFO    klasyfikator  145500/228326 | 3.95 tekst/s | OK 145254  PARSE_FAIL 246  ERROR 0 | pozostało ~5.8 h
+2026-08-03 08:38:35 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 08:40:46 INFO    klasyfikator  146000/228326 | 3.95 tekst/s | OK 145753  PARSE_FAIL 247  ERROR 0 | pozostało ~5.8 h
+2026-08-03 08:40:48 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 08:43:00 INFO    klasyfikator  146500/228326 | 3.95 tekst/s | OK 146253  PARSE_FAIL 247  ERROR 0 | pozostało ~5.8 h
+2026-08-03 08:43:02 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 08:45:22 INFO    klasyfikator  147000/228326 | 3.95 tekst/s | OK 146752  PARSE_FAIL 248  ERROR 0 | pozostało ~5.7 h
+2026-08-03 08:45:24 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 08:47:43 INFO    klasyfikator  147500/228326 | 3.95 tekst/s | OK 147250  PARSE_FAIL 250  ERROR 0 | pozostało ~5.7 h
+2026-08-03 08:47:46 INFO    drive        Dysk: progress.json (2 kB) w 2.4s
+2026-08-03 08:50:06 INFO    klasyfikator  148000/228326 | 3.94 tekst/s | OK 147745  PARSE_FAIL 255  ERROR 0 | pozostało ~5.7 h
+2026-08-03 08:50:08 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 08:52:09 INFO    klasyfikator  148500/228326 | 3.94 tekst/s | OK 148245  PARSE_FAIL 255  ERROR 0 | pozostało ~5.6 h
+2026-08-03 08:52:11 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 08:54:13 INFO    klasyfikator  149000/228326 | 3.95 tekst/s | OK 148744  PARSE_FAIL 256  ERROR 0 | pozostało ~5.6 h
+2026-08-03 08:54:15 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 08:56:26 INFO    klasyfikator  149500/228326 | 3.94 tekst/s | OK 149244  PARSE_FAIL 256  ERROR 0 | pozostało ~5.6 h
+2026-08-03 08:56:28 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 08:58:34 INFO    klasyfikator  150000/228326 | 3.94 tekst/s | OK 149744  PARSE_FAIL 256  ERROR 0 | pozostało ~5.5 h
+2026-08-03 08:58:34 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 08:58:36 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 08:58:39 INFO    drive        Dysk: wyniki.jsonl.gz (2610 kB) w 2.3s
+2026-08-03 09:00:47 INFO    klasyfikator  150500/228326 | 3.94 tekst/s | OK 150244  PARSE_FAIL 256  ERROR 0 | pozostało ~5.5 h
+2026-08-03 09:00:49 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:03:00 INFO    klasyfikator  151000/228326 | 3.94 tekst/s | OK 150744  PARSE_FAIL 256  ERROR 0 | pozostało ~5.4 h
+2026-08-03 09:03:02 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 09:05:13 INFO    klasyfikator  151500/228326 | 3.94 tekst/s | OK 151243  PARSE_FAIL 257  ERROR 0 | pozostało ~5.4 h
+2026-08-03 09:05:15 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 09:07:18 INFO    klasyfikator  152000/228326 | 3.94 tekst/s | OK 151742  PARSE_FAIL 258  ERROR 0 | pozostało ~5.4 h
+2026-08-03 09:07:20 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 09:09:26 INFO    klasyfikator  152500/228326 | 3.94 tekst/s | OK 152242  PARSE_FAIL 258  ERROR 0 | pozostało ~5.3 h
+2026-08-03 09:09:28 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 09:11:07 INFO    klasyfikator  153000/228326 | 3.95 tekst/s | OK 152742  PARSE_FAIL 258  ERROR 0 | pozostało ~5.3 h
+2026-08-03 09:11:09 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:13:12 INFO    klasyfikator  153500/228326 | 3.95 tekst/s | OK 153242  PARSE_FAIL 258  ERROR 0 | pozostało ~5.3 h
+2026-08-03 09:13:14 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:15:22 INFO    klasyfikator  154000/228326 | 3.95 tekst/s | OK 153742  PARSE_FAIL 258  ERROR 0 | pozostało ~5.2 h
+2026-08-03 09:15:24 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 09:17:34 INFO    klasyfikator  154500/228326 | 3.94 tekst/s | OK 154242  PARSE_FAIL 258  ERROR 0 | pozostało ~5.2 h
+2026-08-03 09:17:36 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:19:48 INFO    klasyfikator  155000/228326 | 3.94 tekst/s | OK 154742  PARSE_FAIL 258  ERROR 0 | pozostało ~5.2 h
+2026-08-03 09:19:48 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 09:19:50 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:19:52 INFO    drive        Dysk: wyniki.jsonl.gz (2694 kB) w 2.1s
+2026-08-03 09:22:01 INFO    klasyfikator  155500/228326 | 3.94 tekst/s | OK 155240  PARSE_FAIL 260  ERROR 0 | pozostało ~5.1 h
+2026-08-03 09:22:03 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 09:24:25 INFO    klasyfikator  156000/228326 | 3.94 tekst/s | OK 155739  PARSE_FAIL 261  ERROR 0 | pozostało ~5.1 h
+2026-08-03 09:24:27 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:26:39 INFO    klasyfikator  156500/228326 | 3.94 tekst/s | OK 156239  PARSE_FAIL 261  ERROR 0 | pozostało ~5.1 h
+2026-08-03 09:26:41 INFO    drive        Dysk: progress.json (2 kB) w 1.7s
+2026-08-03 09:28:47 INFO    klasyfikator  157000/228326 | 3.94 tekst/s | OK 156739  PARSE_FAIL 261  ERROR 0 | pozostało ~5.0 h
+2026-08-03 09:28:49 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 09:31:00 INFO    klasyfikator  157500/228326 | 3.94 tekst/s | OK 157239  PARSE_FAIL 261  ERROR 0 | pozostało ~5.0 h
+2026-08-03 09:31:02 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:33:17 INFO    klasyfikator  158000/228326 | 3.94 tekst/s | OK 157739  PARSE_FAIL 261  ERROR 0 | pozostało ~5.0 h
+2026-08-03 09:33:18 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:35:29 INFO    klasyfikator  158500/228326 | 3.94 tekst/s | OK 158239  PARSE_FAIL 261  ERROR 0 | pozostało ~4.9 h
+2026-08-03 09:35:31 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 09:37:32 INFO    klasyfikator  159000/228326 | 3.94 tekst/s | OK 158739  PARSE_FAIL 261  ERROR 0 | pozostało ~4.9 h
+2026-08-03 09:37:34 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 09:39:56 INFO    klasyfikator  159500/228326 | 3.94 tekst/s | OK 159239  PARSE_FAIL 261  ERROR 0 | pozostało ~4.9 h
+2026-08-03 09:39:58 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 09:42:08 INFO    klasyfikator  160000/228326 | 3.94 tekst/s | OK 159737  PARSE_FAIL 263  ERROR 0 | pozostało ~4.8 h
+2026-08-03 09:42:08 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 09:42:10 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 09:42:12 INFO    drive        Dysk: wyniki.jsonl.gz (2784 kB) w 2.3s
+2026-08-03 09:44:28 INFO    klasyfikator  160500/228326 | 3.94 tekst/s | OK 160237  PARSE_FAIL 263  ERROR 0 | pozostało ~4.8 h
+2026-08-03 09:44:30 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 09:46:42 INFO    klasyfikator  161000/228326 | 3.93 tekst/s | OK 160737  PARSE_FAIL 263  ERROR 0 | pozostało ~4.8 h
+2026-08-03 09:46:44 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 09:48:57 INFO    klasyfikator  161500/228326 | 3.93 tekst/s | OK 161236  PARSE_FAIL 264  ERROR 0 | pozostało ~4.7 h
+2026-08-03 09:48:59 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 09:51:31 INFO    klasyfikator  162000/228326 | 3.93 tekst/s | OK 161735  PARSE_FAIL 265  ERROR 0 | pozostało ~4.7 h
+2026-08-03 09:51:33 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:53:46 INFO    klasyfikator  162500/228326 | 3.93 tekst/s | OK 162235  PARSE_FAIL 265  ERROR 0 | pozostało ~4.7 h
+2026-08-03 09:53:48 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 09:56:02 INFO    klasyfikator  163000/228326 | 3.93 tekst/s | OK 162733  PARSE_FAIL 267  ERROR 0 | pozostało ~4.6 h
+2026-08-03 09:56:04 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 09:58:04 INFO    klasyfikator  163500/228326 | 3.93 tekst/s | OK 163233  PARSE_FAIL 267  ERROR 0 | pozostało ~4.6 h
+2026-08-03 09:58:06 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 10:00:15 INFO    klasyfikator  164000/228326 | 3.93 tekst/s | OK 163733  PARSE_FAIL 267  ERROR 0 | pozostało ~4.5 h
+2026-08-03 10:00:17 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 10:02:20 INFO    klasyfikator  164500/228326 | 3.93 tekst/s | OK 164232  PARSE_FAIL 268  ERROR 0 | pozostało ~4.5 h
+2026-08-03 10:02:22 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:04:36 INFO    klasyfikator  165000/228326 | 3.93 tekst/s | OK 164732  PARSE_FAIL 268  ERROR 0 | pozostało ~4.5 h
+2026-08-03 10:04:36 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 10:04:38 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 10:04:40 INFO    drive        Dysk: wyniki.jsonl.gz (2874 kB) w 2.1s
+2026-08-03 10:06:46 INFO    klasyfikator  165500/228326 | 3.93 tekst/s | OK 165231  PARSE_FAIL 269  ERROR 0 | pozostało ~4.4 h
+2026-08-03 10:06:48 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:08:48 INFO    klasyfikator  166000/228326 | 3.93 tekst/s | OK 165731  PARSE_FAIL 269  ERROR 0 | pozostało ~4.4 h
+2026-08-03 10:08:50 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 10:10:46 INFO    klasyfikator  166500/228326 | 3.93 tekst/s | OK 166231  PARSE_FAIL 269  ERROR 0 | pozostało ~4.4 h
+2026-08-03 10:10:48 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:13:35 INFO    klasyfikator  167000/228326 | 3.93 tekst/s | OK 166699  PARSE_FAIL 301  ERROR 0 | pozostało ~4.3 h
+2026-08-03 10:13:37 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:15:58 INFO    klasyfikator  167500/228326 | 3.93 tekst/s | OK 167197  PARSE_FAIL 303  ERROR 0 | pozostało ~4.3 h
+2026-08-03 10:16:00 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 10:18:13 INFO    klasyfikator  168000/228326 | 3.92 tekst/s | OK 167697  PARSE_FAIL 303  ERROR 0 | pozostało ~4.3 h
+2026-08-03 10:18:15 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 10:20:44 INFO    klasyfikator  168500/228326 | 3.92 tekst/s | OK 168187  PARSE_FAIL 313  ERROR 0 | pozostało ~4.2 h
+2026-08-03 10:20:46 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 10:23:05 INFO    klasyfikator  169000/228326 | 3.92 tekst/s | OK 168685  PARSE_FAIL 315  ERROR 0 | pozostało ~4.2 h
+2026-08-03 10:23:07 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 10:25:21 INFO    klasyfikator  169500/228326 | 3.92 tekst/s | OK 169185  PARSE_FAIL 315  ERROR 0 | pozostało ~4.2 h
+2026-08-03 10:25:23 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:27:34 INFO    klasyfikator  170000/228326 | 3.92 tekst/s | OK 169685  PARSE_FAIL 315  ERROR 0 | pozostało ~4.1 h
+2026-08-03 10:27:34 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 10:27:36 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:27:38 INFO    drive        Dysk: wyniki.jsonl.gz (2969 kB) w 2.1s
+2026-08-03 10:29:50 INFO    klasyfikator  170500/228326 | 3.92 tekst/s | OK 170185  PARSE_FAIL 315  ERROR 0 | pozostało ~4.1 h
+2026-08-03 10:29:52 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 10:32:04 INFO    klasyfikator  171000/228326 | 3.92 tekst/s | OK 170684  PARSE_FAIL 316  ERROR 0 | pozostało ~4.1 h
+2026-08-03 10:32:06 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:34:19 INFO    klasyfikator  171500/228326 | 3.92 tekst/s | OK 171184  PARSE_FAIL 316  ERROR 0 | pozostało ~4.0 h
+2026-08-03 10:34:21 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:36:36 INFO    klasyfikator  172000/228326 | 3.92 tekst/s | OK 171684  PARSE_FAIL 316  ERROR 0 | pozostało ~4.0 h
+2026-08-03 10:36:37 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 10:38:46 INFO    klasyfikator  172500/228326 | 3.92 tekst/s | OK 172184  PARSE_FAIL 316  ERROR 0 | pozostało ~4.0 h
+2026-08-03 10:38:48 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:41:07 INFO    klasyfikator  173000/228326 | 3.92 tekst/s | OK 172684  PARSE_FAIL 316  ERROR 0 | pozostało ~3.9 h
+2026-08-03 10:41:09 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 10:43:22 INFO    klasyfikator  173500/228326 | 3.92 tekst/s | OK 173183  PARSE_FAIL 317  ERROR 0 | pozostało ~3.9 h
+2026-08-03 10:43:24 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 10:45:37 INFO    klasyfikator  174000/228326 | 3.91 tekst/s | OK 173681  PARSE_FAIL 319  ERROR 0 | pozostało ~3.9 h
+2026-08-03 10:45:39 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 10:48:00 INFO    klasyfikator  174500/228326 | 3.91 tekst/s | OK 174181  PARSE_FAIL 319  ERROR 0 | pozostało ~3.8 h
+2026-08-03 10:48:02 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 10:50:08 INFO    klasyfikator  175000/228326 | 3.91 tekst/s | OK 174680  PARSE_FAIL 320  ERROR 0 | pozostało ~3.8 h
+2026-08-03 10:50:08 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 10:50:10 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 10:50:13 INFO    drive        Dysk: wyniki.jsonl.gz (3061 kB) w 2.2s
+2026-08-03 10:52:46 INFO    klasyfikator  175500/228326 | 3.91 tekst/s | OK 175180  PARSE_FAIL 320  ERROR 0 | pozostało ~3.8 h
+2026-08-03 10:52:48 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 10:55:32 INFO    klasyfikator  176000/228326 | 3.91 tekst/s | OK 175678  PARSE_FAIL 322  ERROR 0 | pozostało ~3.7 h
+2026-08-03 10:55:34 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 10:57:54 INFO    klasyfikator  176500/228326 | 3.91 tekst/s | OK 176178  PARSE_FAIL 322  ERROR 0 | pozostało ~3.7 h
+2026-08-03 10:57:56 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 11:00:11 INFO    klasyfikator  177000/228326 | 3.91 tekst/s | OK 176672  PARSE_FAIL 328  ERROR 0 | pozostało ~3.7 h
+2026-08-03 11:00:13 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 11:02:27 INFO    klasyfikator  177500/228326 | 3.90 tekst/s | OK 177170  PARSE_FAIL 330  ERROR 0 | pozostało ~3.6 h
+2026-08-03 11:02:29 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 11:04:39 INFO    klasyfikator  178000/228326 | 3.90 tekst/s | OK 177670  PARSE_FAIL 330  ERROR 0 | pozostało ~3.6 h
+2026-08-03 11:04:41 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 11:07:12 INFO    klasyfikator  178500/228326 | 3.90 tekst/s | OK 178166  PARSE_FAIL 334  ERROR 0 | pozostało ~3.5 h
+2026-08-03 11:07:14 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:09:28 INFO    klasyfikator  179000/228326 | 3.90 tekst/s | OK 178665  PARSE_FAIL 335  ERROR 0 | pozostało ~3.5 h
+2026-08-03 11:09:30 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 11:11:41 INFO    klasyfikator  179500/228326 | 3.90 tekst/s | OK 179165  PARSE_FAIL 335  ERROR 0 | pozostało ~3.5 h
+2026-08-03 11:11:43 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 11:13:55 INFO    klasyfikator  180000/228326 | 3.90 tekst/s | OK 179665  PARSE_FAIL 335  ERROR 0 | pozostało ~3.4 h
+2026-08-03 11:13:55 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 11:13:57 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 11:14:00 INFO    drive        Dysk: wyniki.jsonl.gz (3155 kB) w 2.1s
+2026-08-03 11:16:14 INFO    klasyfikator  180500/228326 | 3.90 tekst/s | OK 180165  PARSE_FAIL 335  ERROR 0 | pozostało ~3.4 h
+2026-08-03 11:16:16 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 11:18:27 INFO    klasyfikator  181000/228326 | 3.90 tekst/s | OK 180665  PARSE_FAIL 335  ERROR 0 | pozostało ~3.4 h
+2026-08-03 11:18:28 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 11:20:45 INFO    klasyfikator  181500/228326 | 3.90 tekst/s | OK 181165  PARSE_FAIL 335  ERROR 0 | pozostało ~3.3 h
+2026-08-03 11:20:47 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:23:12 INFO    klasyfikator  182000/228326 | 3.90 tekst/s | OK 181665  PARSE_FAIL 335  ERROR 0 | pozostało ~3.3 h
+2026-08-03 11:23:14 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:25:23 INFO    klasyfikator  182500/228326 | 3.90 tekst/s | OK 182165  PARSE_FAIL 335  ERROR 0 | pozostało ~3.3 h
+2026-08-03 11:25:25 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 11:27:41 INFO    klasyfikator  183000/228326 | 3.90 tekst/s | OK 182665  PARSE_FAIL 335  ERROR 0 | pozostało ~3.2 h
+2026-08-03 11:27:43 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 11:30:03 INFO    klasyfikator  183500/228326 | 3.89 tekst/s | OK 183165  PARSE_FAIL 335  ERROR 0 | pozostało ~3.2 h
+2026-08-03 11:30:05 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:32:08 INFO    klasyfikator  184000/228326 | 3.89 tekst/s | OK 183665  PARSE_FAIL 335  ERROR 0 | pozostało ~3.2 h
+2026-08-03 11:32:10 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 11:34:26 INFO    klasyfikator  184500/228326 | 3.89 tekst/s | OK 184165  PARSE_FAIL 335  ERROR 0 | pozostało ~3.1 h
+2026-08-03 11:34:28 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:36:35 INFO    klasyfikator  185000/228326 | 3.89 tekst/s | OK 184665  PARSE_FAIL 335  ERROR 0 | pozostało ~3.1 h
+2026-08-03 11:36:35 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 11:36:37 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 11:36:40 INFO    drive        Dysk: wyniki.jsonl.gz (3243 kB) w 2.6s
+2026-08-03 11:38:44 INFO    klasyfikator  185500/228326 | 3.89 tekst/s | OK 185165  PARSE_FAIL 335  ERROR 0 | pozostało ~3.1 h
+2026-08-03 11:38:46 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:40:50 INFO    klasyfikator  186000/228326 | 3.89 tekst/s | OK 185665  PARSE_FAIL 335  ERROR 0 | pozostało ~3.0 h
+2026-08-03 11:40:52 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:42:58 INFO    klasyfikator  186500/228326 | 3.89 tekst/s | OK 186165  PARSE_FAIL 335  ERROR 0 | pozostało ~3.0 h
+2026-08-03 11:43:00 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 11:45:30 INFO    klasyfikator  187000/228326 | 3.89 tekst/s | OK 186663  PARSE_FAIL 337  ERROR 0 | pozostało ~2.9 h
+2026-08-03 11:45:32 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:47:37 INFO    klasyfikator  187500/228326 | 3.89 tekst/s | OK 187161  PARSE_FAIL 339  ERROR 0 | pozostało ~2.9 h
+2026-08-03 11:47:38 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:49:54 INFO    klasyfikator  188000/228326 | 3.89 tekst/s | OK 187661  PARSE_FAIL 339  ERROR 0 | pozostało ~2.9 h
+2026-08-03 11:49:56 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 11:52:07 INFO    klasyfikator  188500/228326 | 3.89 tekst/s | OK 188161  PARSE_FAIL 339  ERROR 0 | pozostało ~2.8 h
+2026-08-03 11:52:09 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:54:14 INFO    klasyfikator  189000/228326 | 3.89 tekst/s | OK 188661  PARSE_FAIL 339  ERROR 0 | pozostało ~2.8 h
+2026-08-03 11:54:16 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:56:34 INFO    klasyfikator  189500/228326 | 3.89 tekst/s | OK 189161  PARSE_FAIL 339  ERROR 0 | pozostało ~2.8 h
+2026-08-03 11:56:36 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 11:58:54 INFO    klasyfikator  190000/228326 | 3.89 tekst/s | OK 189661  PARSE_FAIL 339  ERROR 0 | pozostało ~2.7 h
+2026-08-03 11:58:54 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 11:58:56 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 11:58:59 INFO    drive        Dysk: wyniki.jsonl.gz (3333 kB) w 2.3s
+2026-08-03 12:00:50 INFO    klasyfikator  190500/228326 | 3.89 tekst/s | OK 190161  PARSE_FAIL 339  ERROR 0 | pozostało ~2.7 h
+2026-08-03 12:00:51 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 12:03:22 INFO    klasyfikator  191000/228326 | 3.89 tekst/s | OK 190660  PARSE_FAIL 340  ERROR 0 | pozostało ~2.7 h
+2026-08-03 12:03:24 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 12:05:44 INFO    klasyfikator  191500/228326 | 3.89 tekst/s | OK 191159  PARSE_FAIL 341  ERROR 0 | pozostało ~2.6 h
+2026-08-03 12:05:46 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 12:08:04 INFO    klasyfikator  192000/228326 | 3.89 tekst/s | OK 191655  PARSE_FAIL 345  ERROR 0 | pozostało ~2.6 h
+2026-08-03 12:08:06 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 12:10:10 INFO    klasyfikator  192500/228326 | 3.89 tekst/s | OK 192155  PARSE_FAIL 345  ERROR 0 | pozostało ~2.6 h
+2026-08-03 12:10:12 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 12:12:25 INFO    klasyfikator  193000/228326 | 3.89 tekst/s | OK 192655  PARSE_FAIL 345  ERROR 0 | pozostało ~2.5 h
+2026-08-03 12:12:27 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 12:14:45 INFO    klasyfikator  193500/228326 | 3.89 tekst/s | OK 193155  PARSE_FAIL 345  ERROR 0 | pozostało ~2.5 h
+2026-08-03 12:14:47 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 12:16:59 INFO    klasyfikator  194000/228326 | 3.89 tekst/s | OK 193654  PARSE_FAIL 346  ERROR 0 | pozostało ~2.5 h
+2026-08-03 12:17:01 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 12:19:15 INFO    klasyfikator  194500/228326 | 3.88 tekst/s | OK 194154  PARSE_FAIL 346  ERROR 0 | pozostało ~2.4 h
+2026-08-03 12:19:17 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 12:21:21 INFO    klasyfikator  195000/228326 | 3.88 tekst/s | OK 194654  PARSE_FAIL 346  ERROR 0 | pozostało ~2.4 h
+2026-08-03 12:21:21 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 12:21:23 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 12:21:25 INFO    drive        Dysk: wyniki.jsonl.gz (3424 kB) w 2.3s
+2026-08-03 12:23:21 INFO    klasyfikator  195500/228326 | 3.89 tekst/s | OK 195154  PARSE_FAIL 346  ERROR 0 | pozostało ~2.3 h
+2026-08-03 12:23:23 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 12:25:52 INFO    klasyfikator  196000/228326 | 3.88 tekst/s | OK 195648  PARSE_FAIL 352  ERROR 0 | pozostało ~2.3 h
+2026-08-03 12:25:54 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 12:28:05 INFO    klasyfikator  196500/228326 | 3.88 tekst/s | OK 196148  PARSE_FAIL 352  ERROR 0 | pozostało ~2.3 h
+2026-08-03 12:28:07 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 12:30:22 INFO    klasyfikator  197000/228326 | 3.88 tekst/s | OK 196646  PARSE_FAIL 354  ERROR 0 | pozostało ~2.2 h
+2026-08-03 12:30:24 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 12:32:37 INFO    klasyfikator  197500/228326 | 3.88 tekst/s | OK 197146  PARSE_FAIL 354  ERROR 0 | pozostało ~2.2 h
+2026-08-03 12:32:39 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 12:34:58 INFO    klasyfikator  198000/228326 | 3.88 tekst/s | OK 197643  PARSE_FAIL 357  ERROR 0 | pozostało ~2.2 h
+2026-08-03 12:35:00 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 12:37:23 INFO    klasyfikator  198500/228326 | 3.88 tekst/s | OK 198143  PARSE_FAIL 357  ERROR 0 | pozostało ~2.1 h
+2026-08-03 12:37:25 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 12:39:35 INFO    klasyfikator  199000/228326 | 3.88 tekst/s | OK 198643  PARSE_FAIL 357  ERROR 0 | pozostało ~2.1 h
+2026-08-03 12:39:37 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 12:41:52 INFO    klasyfikator  199500/228326 | 3.88 tekst/s | OK 199142  PARSE_FAIL 358  ERROR 0 | pozostało ~2.1 h
+2026-08-03 12:41:54 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 12:44:11 INFO    klasyfikator  200000/228326 | 3.88 tekst/s | OK 199640  PARSE_FAIL 360  ERROR 0 | pozostało ~2.0 h
+2026-08-03 12:44:11 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 12:44:12 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 12:44:15 INFO    drive        Dysk: wyniki.jsonl.gz (3517 kB) w 2.4s
+2026-08-03 12:46:25 INFO    klasyfikator  200500/228326 | 3.88 tekst/s | OK 200140  PARSE_FAIL 360  ERROR 0 | pozostało ~2.0 h
+2026-08-03 12:46:27 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 12:48:34 INFO    klasyfikator  201000/228326 | 3.88 tekst/s | OK 200639  PARSE_FAIL 361  ERROR 0 | pozostało ~2.0 h
+2026-08-03 12:48:36 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 12:51:03 INFO    klasyfikator  201500/228326 | 3.88 tekst/s | OK 201139  PARSE_FAIL 361  ERROR 0 | pozostało ~1.9 h
+2026-08-03 12:51:05 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 12:53:29 INFO    klasyfikator  202000/228326 | 3.88 tekst/s | OK 201639  PARSE_FAIL 361  ERROR 0 | pozostało ~1.9 h
+2026-08-03 12:53:31 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 12:55:43 INFO    klasyfikator  202500/228326 | 3.88 tekst/s | OK 202139  PARSE_FAIL 361  ERROR 0 | pozostało ~1.9 h
+2026-08-03 12:55:45 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 12:58:02 INFO    klasyfikator  203000/228326 | 3.87 tekst/s | OK 202637  PARSE_FAIL 363  ERROR 0 | pozostało ~1.8 h
+2026-08-03 12:58:04 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:00:08 INFO    klasyfikator  203500/228326 | 3.87 tekst/s | OK 203137  PARSE_FAIL 363  ERROR 0 | pozostało ~1.8 h
+2026-08-03 13:00:10 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:02:28 INFO    klasyfikator  204000/228326 | 3.87 tekst/s | OK 203637  PARSE_FAIL 363  ERROR 0 | pozostało ~1.7 h
+2026-08-03 13:02:30 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 13:04:47 INFO    klasyfikator  204500/228326 | 3.87 tekst/s | OK 204136  PARSE_FAIL 364  ERROR 0 | pozostało ~1.7 h
+2026-08-03 13:04:49 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 13:07:03 INFO    klasyfikator  205000/228326 | 3.87 tekst/s | OK 204636  PARSE_FAIL 364  ERROR 0 | pozostało ~1.7 h
+2026-08-03 13:07:03 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 13:07:05 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 13:07:08 INFO    drive        Dysk: wyniki.jsonl.gz (3608 kB) w 2.0s
+2026-08-03 13:09:26 INFO    klasyfikator  205500/228326 | 3.87 tekst/s | OK 205136  PARSE_FAIL 364  ERROR 0 | pozostało ~1.6 h
+2026-08-03 13:09:28 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 13:11:41 INFO    klasyfikator  206000/228326 | 3.87 tekst/s | OK 205636  PARSE_FAIL 364  ERROR 0 | pozostało ~1.6 h
+2026-08-03 13:11:43 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 13:13:49 INFO    klasyfikator  206500/228326 | 3.87 tekst/s | OK 206136  PARSE_FAIL 364  ERROR 0 | pozostało ~1.6 h
+2026-08-03 13:13:51 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 13:15:58 INFO    klasyfikator  207000/228326 | 3.87 tekst/s | OK 206634  PARSE_FAIL 366  ERROR 0 | pozostało ~1.5 h
+2026-08-03 13:16:00 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:18:15 INFO    klasyfikator  207500/228326 | 3.87 tekst/s | OK 207134  PARSE_FAIL 366  ERROR 0 | pozostało ~1.5 h
+2026-08-03 13:18:17 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:20:32 INFO    klasyfikator  208000/228326 | 3.87 tekst/s | OK 207633  PARSE_FAIL 367  ERROR 0 | pozostało ~1.5 h
+2026-08-03 13:20:34 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:22:49 INFO    klasyfikator  208500/228326 | 3.87 tekst/s | OK 208133  PARSE_FAIL 367  ERROR 0 | pozostało ~1.4 h
+2026-08-03 13:22:51 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:25:03 INFO    klasyfikator  209000/228326 | 3.87 tekst/s | OK 208633  PARSE_FAIL 367  ERROR 0 | pozostało ~1.4 h
+2026-08-03 13:25:05 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:27:23 INFO    klasyfikator  209500/228326 | 3.87 tekst/s | OK 209131  PARSE_FAIL 369  ERROR 0 | pozostało ~1.4 h
+2026-08-03 13:27:25 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:29:39 INFO    klasyfikator  210000/228326 | 3.87 tekst/s | OK 209631  PARSE_FAIL 369  ERROR 0 | pozostało ~1.3 h
+2026-08-03 13:29:39 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 13:29:41 INFO    drive        Dysk: progress.json (2 kB) w 2.4s
+2026-08-03 13:29:44 INFO    drive        Dysk: wyniki.jsonl.gz (3699 kB) w 2.2s
+2026-08-03 13:31:44 INFO    klasyfikator  210500/228326 | 3.87 tekst/s | OK 210131  PARSE_FAIL 369  ERROR 0 | pozostało ~1.3 h
+2026-08-03 13:31:46 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 13:34:07 INFO    klasyfikator  211000/228326 | 3.87 tekst/s | OK 210627  PARSE_FAIL 373  ERROR 0 | pozostało ~1.2 h
+2026-08-03 13:34:09 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 13:36:19 INFO    klasyfikator  211500/228326 | 3.87 tekst/s | OK 211123  PARSE_FAIL 377  ERROR 0 | pozostało ~1.2 h
+2026-08-03 13:36:21 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:38:32 INFO    klasyfikator  212000/228326 | 3.87 tekst/s | OK 211623  PARSE_FAIL 377  ERROR 0 | pozostało ~1.2 h
+2026-08-03 13:38:34 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 13:40:51 INFO    klasyfikator  212500/228326 | 3.87 tekst/s | OK 212123  PARSE_FAIL 377  ERROR 0 | pozostało ~1.1 h
+2026-08-03 13:40:53 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 13:42:59 INFO    klasyfikator  213000/228326 | 3.87 tekst/s | OK 212621  PARSE_FAIL 379  ERROR 0 | pozostało ~1.1 h
+2026-08-03 13:43:01 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 13:45:03 INFO    klasyfikator  213500/228326 | 3.87 tekst/s | OK 213121  PARSE_FAIL 379  ERROR 0 | pozostało ~1.1 h
+2026-08-03 13:45:05 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:47:09 INFO    klasyfikator  214000/228326 | 3.87 tekst/s | OK 213620  PARSE_FAIL 380  ERROR 0 | pozostało ~1.0 h
+2026-08-03 13:47:10 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:49:16 INFO    klasyfikator  214500/228326 | 3.87 tekst/s | OK 214120  PARSE_FAIL 380  ERROR 0 | pozostało ~1.0 h
+2026-08-03 13:49:18 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 13:51:44 INFO    klasyfikator  215000/228326 | 3.87 tekst/s | OK 214615  PARSE_FAIL 385  ERROR 0 | pozostało ~1.0 h
+2026-08-03 13:51:44 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 13:51:46 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 13:51:48 INFO    drive        Dysk: wyniki.jsonl.gz (3791 kB) w 2.2s
+2026-08-03 13:53:59 INFO    klasyfikator  215500/228326 | 3.87 tekst/s | OK 215115  PARSE_FAIL 385  ERROR 0 | pozostało ~0.9 h
+2026-08-03 13:54:01 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 13:56:11 INFO    klasyfikator  216000/228326 | 3.87 tekst/s | OK 215615  PARSE_FAIL 385  ERROR 0 | pozostało ~0.9 h
+2026-08-03 13:56:13 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 13:58:19 INFO    klasyfikator  216500/228326 | 3.87 tekst/s | OK 216115  PARSE_FAIL 385  ERROR 0 | pozostało ~0.8 h
+2026-08-03 13:58:21 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 14:00:30 INFO    klasyfikator  217000/228326 | 3.87 tekst/s | OK 216613  PARSE_FAIL 387  ERROR 0 | pozostało ~0.8 h
+2026-08-03 14:00:32 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 14:02:44 INFO    klasyfikator  217500/228326 | 3.86 tekst/s | OK 217113  PARSE_FAIL 387  ERROR 0 | pozostało ~0.8 h
+2026-08-03 14:02:46 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 14:04:57 INFO    klasyfikator  218000/228326 | 3.86 tekst/s | OK 217613  PARSE_FAIL 387  ERROR 0 | pozostało ~0.7 h
+2026-08-03 14:04:59 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 14:07:15 INFO    klasyfikator  218500/228326 | 3.86 tekst/s | OK 218111  PARSE_FAIL 389  ERROR 0 | pozostało ~0.7 h
+2026-08-03 14:07:18 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 14:09:30 INFO    klasyfikator  219000/228326 | 3.86 tekst/s | OK 218611  PARSE_FAIL 389  ERROR 0 | pozostało ~0.7 h
+2026-08-03 14:09:32 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 14:11:47 INFO    klasyfikator  219500/228326 | 3.86 tekst/s | OK 219109  PARSE_FAIL 391  ERROR 0 | pozostało ~0.6 h
+2026-08-03 14:11:49 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 14:14:02 INFO    klasyfikator  220000/228326 | 3.86 tekst/s | OK 219609  PARSE_FAIL 391  ERROR 0 | pozostało ~0.6 h
+2026-08-03 14:14:02 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 14:14:03 INFO    drive        Dysk: progress.json (2 kB) w 1.8s
+2026-08-03 14:14:06 INFO    drive        Dysk: wyniki.jsonl.gz (3882 kB) w 1.8s
+2026-08-03 14:16:14 INFO    klasyfikator  220500/228326 | 3.86 tekst/s | OK 220109  PARSE_FAIL 391  ERROR 0 | pozostało ~0.6 h
+2026-08-03 14:16:16 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 14:18:06 INFO    klasyfikator  221000/228326 | 3.86 tekst/s | OK 220609  PARSE_FAIL 391  ERROR 0 | pozostało ~0.5 h
+2026-08-03 14:18:08 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 14:20:25 INFO    klasyfikator  221500/228326 | 3.86 tekst/s | OK 221108  PARSE_FAIL 392  ERROR 0 | pozostało ~0.5 h
+2026-08-03 14:20:27 INFO    drive        Dysk: progress.json (2 kB) w 1.9s
+2026-08-03 14:22:28 INFO    klasyfikator  222000/228326 | 3.86 tekst/s | OK 221608  PARSE_FAIL 392  ERROR 0 | pozostało ~0.5 h
+2026-08-03 14:22:30 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 14:24:34 INFO    klasyfikator  222500/228326 | 3.86 tekst/s | OK 222108  PARSE_FAIL 392  ERROR 0 | pozostało ~0.4 h
+2026-08-03 14:24:36 INFO    drive        Dysk: progress.json (2 kB) w 2.3s
+2026-08-03 14:26:45 INFO    klasyfikator  223000/228326 | 3.86 tekst/s | OK 222605  PARSE_FAIL 395  ERROR 0 | pozostało ~0.4 h
+2026-08-03 14:26:47 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 14:28:38 INFO    klasyfikator  223500/228326 | 3.86 tekst/s | OK 223105  PARSE_FAIL 395  ERROR 0 | pozostało ~0.3 h
+2026-08-03 14:28:40 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 14:30:46 INFO    klasyfikator  224000/228326 | 3.86 tekst/s | OK 223605  PARSE_FAIL 395  ERROR 0 | pozostało ~0.3 h
+2026-08-03 14:30:48 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 14:32:49 INFO    klasyfikator  224500/228326 | 3.87 tekst/s | OK 224105  PARSE_FAIL 395  ERROR 0 | pozostało ~0.3 h
+2026-08-03 14:32:52 INFO    drive        Dysk: progress.json (2 kB) w 2.9s
+2026-08-03 14:35:08 INFO    klasyfikator  225000/228326 | 3.86 tekst/s | OK 224604  PARSE_FAIL 396  ERROR 0 | pozostało ~0.2 h
+2026-08-03 14:35:08 INFO    klasyfikator Zlecono kopię pełnych wyników na Dysk
+2026-08-03 14:35:11 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 14:35:13 INFO    drive        Dysk: wyniki.jsonl.gz (3971 kB) w 2.2s
+2026-08-03 14:37:20 INFO    klasyfikator  225500/228326 | 3.86 tekst/s | OK 225104  PARSE_FAIL 396  ERROR 0 | pozostało ~0.2 h
+2026-08-03 14:37:22 INFO    drive        Dysk: progress.json (2 kB) w 2.0s
+2026-08-03 14:39:23 INFO    klasyfikator  226000/228326 | 3.86 tekst/s | OK 225604  PARSE_FAIL 396  ERROR 0 | pozostało ~0.2 h
+2026-08-03 14:39:26 INFO    drive        Dysk: progress.json (2 kB) w 2.2s
+2026-08-03 14:41:31 INFO    klasyfikator  226500/228326 | 3.86 tekst/s | OK 226102  PARSE_FAIL 398  ERROR 0 | pozostało ~0.1 h
+2026-08-03 14:41:33 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 14:43:40 INFO    klasyfikator  227000/228326 | 3.86 tekst/s | OK 226601  PARSE_FAIL 399  ERROR 0 | pozostało ~0.1 h
+2026-08-03 14:43:42 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 14:45:44 INFO    klasyfikator  227500/228326 | 3.87 tekst/s | OK 227101  PARSE_FAIL 399  ERROR 0 | pozostało ~0.1 h
+2026-08-03 14:45:46 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 14:47:41 INFO    klasyfikator  228000/228326 | 3.87 tekst/s | OK 227601  PARSE_FAIL 399  ERROR 0 | pozostało ~0.0 h
+2026-08-03 14:47:43 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 14:49:08 INFO    klasyfikator  228326/228326 | 3.87 tekst/s | OK 227927  PARSE_FAIL 399  ERROR 0 | pozostało ~0.0 h
+2026-08-03 14:49:08 INFO    klasyfikator --------------------------------------------------------------------
+2026-08-03 14:49:08 INFO    klasyfikator   Przetworzone     : 228326
+2026-08-03 14:49:08 INFO    klasyfikator   OK / PARSE_FAIL / ERROR : 227927 / 399 / 0
+2026-08-03 14:49:08 INFO    klasyfikator   Czas             : 16.41 h
+2026-08-03 14:49:08 INFO    klasyfikator   Przestój serwera : 0.0 min
+2026-08-03 14:49:08 INFO    klasyfikator   Tempo            : 3.866 tekst/s
+2026-08-03 14:49:08 INFO    klasyfikator   Obcięte          : 6340 (23897172 znaków)
+2026-08-03 14:49:08 INFO    klasyfikator   Flagi            : {'inne_z_innymi': 2748, 'odpowiedz_ucieta': 1}
+2026-08-03 14:49:08 INFO    klasyfikator ====================================================================
+2026-08-03 14:49:10 INFO    drive        Dysk: progress.json (2 kB) w 2.1s
+2026-08-03 14:49:13 INFO    drive        Dysk: wyniki.jsonl.gz (4030 kB) w 2.5s
