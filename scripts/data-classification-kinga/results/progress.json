@@ -1,0 +1,89 @@
+{
+  "znacznik_czasu": "2026-08-03T12:49:08+00:00",
+  "meta": {
+    "run": "20260802_222446",
+    "model": "qwen3.5-9b@q6_k",
+    "metoda": "one_shot",
+    "suma_kontrolna": "f02abe345a36",
+    "seed": 42,
+    "temperatura": 0.0,
+    "limit_znakow": 6000,
+    "max_tokenow": 500,
+    "lm_studio_url": "http://localhost:1234/v1",
+    "kategorii": 15,
+    "wersja_programu": "1.0",
+    "zrobione_wczesniej": 0
+  },
+  "postep": {
+    "zrobione_wczesniej": 0,
+    "przetworzone_w_tym_uruchomieniu": 228326,
+    "do_zrobienia": 228326,
+    "odsetek": 100.0
+  },
+  "statusy": {
+    "OK": 227927,
+    "PARSE_FAIL": 399,
+    "ERROR": 0
+  },
+  "tempo": {
+    "tekst_na_s": 3.866,
+    "eta_h": 0.0,
+    "czas_pracy_h": 16.41,
+    "przestoj_min": 0.0
+  },
+  "obciecia": {
+    "liczba": 6340,
+    "utracone_znaki": 23897172
+  },
+  "flagi": {
+    "inne_z_innymi": 2748,
+    "odpowiedz_ucieta": 1
+  },
+  "rozklad_kategorii": {
+    "INNE": 120098,
+    "ADMINISTRACJA": 72242,
+    "PRAWORZĄDNOŚĆ": 55664,
+    "GOSPODARKA": 36100,
+    "POLITYKA_SPOŁECZNA": 17998,
+    "SPRAWY_ZAGRANICZNE": 11837,
+    "BEZPIECZEŃSTWO": 10481,
+    "HISTORIA_PAMIĘĆ_NARODOWA": 10250,
+    "POLITYKA_LOKALNA": 10088,
+    "ŚRODOWISKO": 9321,
+    "ZDROWIE": 9017,
+    "ROLNICTWO": 8908,
+    "EDUKACJA_NAUKA": 8465,
+    "INFRASTRUKTURA": 7826,
+    "ŚWIATOPOGLĄD": 7607
+  },
+  "stratum_dlugosci": {
+    "0_121": {
+      "n": 74673,
+      "tylko_inne": 71386
+    },
+    "1200_2000": {
+      "n": 21594,
+      "tylko_inne": 2535
+    },
+    "121_300": {
+      "n": 28182,
+      "tylko_inne": 24298
+    },
+    "2000_3500": {
+      "n": 16641,
+      "tylko_inne": 1193
+    },
+    "300_700": {
+      "n": 30166,
+      "tylko_inne": 14361
+    },
+    "3500_plus": {
+      "n": 19733,
+      "tylko_inne": 811
+    },
+    "700_1200": {
+      "n": 37337,
+      "tylko_inne": 5514
+    }
+  }
+}
