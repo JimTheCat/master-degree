@@ -1,0 +1,5 @@
+experiment,model,variant,split,n_speeches,n_failed,macro_f1,micro_f1,emotions_macro_f1,rhetorical_macro_f1,total_tokens,avg_latency_ms,error
+model-gemma-4-26b-a4b-zeroshot-zeroshot-all,google/gemma-4-26b-a4b,zeroshot,all,500,0,0.38519167141806343,0.4278996865203762,0.44821340073347204,0.34580309059593295,637644,1196.5,
+model-gemma-4-26b-a4b-zeroshot-fewshot-all,google/gemma-4-26b-a4b,fewshot,all,500,0,0.5122539632157976,0.5622932745314223,0.5857270933226684,0.4663332568990034,1030565,1748.4,
+model-gemma-4-26b-a4b-zeroshot-detailed-all,google/gemma-4-26b-a4b,detailed,all,500,0,0.23662156308719362,0.24,0.2498226686256729,0.228370872125644,878985,982.6,
+model-gemma-4-26b-a4b-zeroshot-fewshot_detailed-all,google/gemma-4-26b-a4b,fewshot_detailed,all,500,0,0.4382843677487119,0.5003465003465003,0.5068907324881392,0.3954053897865698,1247084,1562.8,

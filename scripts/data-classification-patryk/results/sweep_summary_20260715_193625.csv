@@ -1,0 +1,5 @@
+experiment,model,variant,split,n_speeches,n_failed,macro_f1,micro_f1,emotions_macro_f1,rhetorical_macro_f1,total_tokens,avg_latency_ms,error
+qwen/qwen3.5-9b-zeroshot-all,qwen/qwen3.5-9b,zeroshot,all,500,500,0.0,0.0,0.0,0.0,646253,847.2,
+qwen/qwen3.5-9b-fewshot-all,qwen/qwen3.5-9b,fewshot,all,500,500,0.0,0.0,0.0,0.0,998603,1005.2,
+qwen/qwen3.5-9b-detailed-all,qwen/qwen3.5-9b,detailed,all,500,500,0.0,0.0,0.0,0.0,884981,697.8,
+qwen/qwen3.5-9b-fewshot_detailed-all,qwen/qwen3.5-9b,fewshot_detailed,all,500,500,0.0,0.0,0.0,0.0,1242700,970.3,

@@ -1,0 +1,984 @@
+
+========================================================================
+[2026-07-15 18:23:24] model-gemma-4-26b-a4b-zeroshot-zeroshot-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_gemma x zeroshot ──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: be78a25b20064d5abc20c6207d67bc47
+  Model: google/gemma-4-26b-a4b
+  Prompt variant: zeroshot
+
+Classifying 500 speeches...
+       Results: google/gemma-4-26b-a4b / zeroshot / split=all        
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     1.000 │  0.226 │ 0.368 │ 0.338 │
+│ STRATEGIA_STRACHU            │     0.969 │  0.360 │ 0.525 │ 0.477 │
+│ DEHUMANIZACJA_POGARDA        │     0.636 │  0.609 │ 0.622 │ 0.604 │
+│ DUMA_I_SUKCES                │     0.582 │  0.568 │ 0.575 │ 0.494 │
+│ MESJANIZM_MORALNY            │     0.600 │  0.086 │ 0.150 │ 0.135 │
+│ POLARYZACJA_MY_ONI           │     0.957 │  0.321 │ 0.481 │ 0.396 │
+│ AD_HOMINEM                   │     0.769 │  0.312 │ 0.444 │ 0.400 │
+│ OBLEZIONA_TWIERDZA           │     0.545 │  0.133 │ 0.214 │ 0.154 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.915 │  0.375 │ 0.532 │ 0.438 │
+│ WHATABOUTISM                 │     0.538 │  0.304 │ 0.389 │ 0.368 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.083 │  0.222 │ 0.121 │ 0.098 │
+│ DOWOD_ANEGDOTYCZNY           │     0.324 │  0.188 │ 0.238 │ 0.159 │
+│ APEL_O_JEDNOSC               │     0.722 │  0.228 │ 0.347 │ 0.309 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.3852
+Micro-F1: 0.4279
+Total tokens: 637,644
+Avg latency: 1197ms
+
+
+========================================================================
+[2026-07-15 18:37:59] model-gemma-4-26b-a4b-zeroshot-fewshot-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_gemma x fewshot ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: 2005f433632748ce9e2b88d479729985
+  Model: google/gemma-4-26b-a4b
+  Prompt variant: fewshot
+
+Classifying 500 speeches...
+        Results: google/gemma-4-26b-a4b / fewshot / split=all        
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.846 │  0.532 │ 0.653 │ 0.617 │
+│ STRATEGIA_STRACHU            │     0.710 │  0.767 │ 0.737 │ 0.680 │
+│ DEHUMANIZACJA_POGARDA        │     0.381 │  0.696 │ 0.492 │ 0.460 │
+│ DUMA_I_SUKCES                │     0.485 │  0.778 │ 0.597 │ 0.497 │
+│ MESJANIZM_MORALNY            │     0.565 │  0.371 │ 0.448 │ 0.416 │
+│ POLARYZACJA_MY_ONI           │     0.848 │  0.557 │ 0.672 │ 0.579 │
+│ AD_HOMINEM                   │     0.405 │  0.828 │ 0.544 │ 0.449 │
+│ OBLEZIONA_TWIERDZA           │     0.500 │  0.267 │ 0.348 │ 0.254 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.806 │  0.722 │ 0.762 │ 0.673 │
+│ WHATABOUTISM                 │     0.429 │  0.522 │ 0.471 │ 0.442 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.061 │  0.667 │ 0.111 │ 0.081 │
+│ DOWOD_ANEGDOTYCZNY           │     0.457 │  0.250 │ 0.323 │ 0.256 │
+│ APEL_O_JEDNOSC               │     0.553 │  0.456 │ 0.500 │ 0.443 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.5123
+Micro-F1: 0.5623
+Total tokens: 1,030,565
+Avg latency: 1748ms
+
+
+========================================================================
+[2026-07-15 18:46:12] model-gemma-4-26b-a4b-zeroshot-detailed-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_gemma x detailed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: e78c2aa239f44649be4356fd3fed575e
+  Model: google/gemma-4-26b-a4b
+  Prompt variant: detailed
+
+Classifying 500 speeches...
+       Results: google/gemma-4-26b-a4b / detailed / split=all        
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.857 │  0.097 │ 0.174 │ 0.153 │
+│ STRATEGIA_STRACHU            │     0.952 │  0.233 │ 0.374 │ 0.328 │
+│ DEHUMANIZACJA_POGARDA        │     0.625 │  0.217 │ 0.323 │ 0.306 │
+│ DUMA_I_SUKCES                │     0.889 │  0.198 │ 0.323 │ 0.281 │
+│ MESJANIZM_MORALNY            │     1.000 │  0.029 │ 0.056 │ 0.052 │
+│ POLARYZACJA_MY_ONI           │     1.000 │  0.107 │ 0.194 │ 0.147 │
+│ AD_HOMINEM                   │     0.917 │  0.172 │ 0.289 │ 0.260 │
+│ OBLEZIONA_TWIERDZA           │     0.667 │  0.044 │ 0.083 │ 0.062 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     1.000 │  0.181 │ 0.306 │ 0.239 │
+│ WHATABOUTISM                 │     0.556 │  0.435 │ 0.488 │ 0.466 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.167 │  0.333 │ 0.222 │ 0.203 │
+│ DOWOD_ANEGDOTYCZNY           │     0.333 │  0.094 │ 0.146 │ 0.096 │
+│ APEL_O_JEDNOSC               │     0.750 │  0.053 │ 0.098 │ 0.085 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.2366
+Micro-F1: 0.2400
+Total tokens: 878,985
+Avg latency: 983ms
+
+
+========================================================================
+[2026-07-15 18:59:14] model-gemma-4-26b-a4b-zeroshot-fewshot_detailed-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────── model_gemma x fewshot_detailed ──────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: ae83bd87acaa4c0e8696f233a271e318
+  Model: google/gemma-4-26b-a4b
+  Prompt variant: fewshot_detailed
+
+Classifying 500 speeches...
+   Results: google/gemma-4-26b-a4b / fewshot_detailed / split=all    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.958 │  0.371 │ 0.535 │ 0.500 │
+│ STRATEGIA_STRACHU            │     0.682 │  0.698 │ 0.690 │ 0.624 │
+│ DEHUMANIZACJA_POGARDA        │     0.458 │  0.478 │ 0.468 │ 0.442 │
+│ DUMA_I_SUKCES                │     0.657 │  0.568 │ 0.609 │ 0.540 │
+│ MESJANIZM_MORALNY            │     0.625 │  0.143 │ 0.233 │ 0.212 │
+│ POLARYZACJA_MY_ONI           │     0.909 │  0.357 │ 0.513 │ 0.421 │
+│ AD_HOMINEM                   │     0.608 │  0.703 │ 0.652 │ 0.597 │
+│ OBLEZIONA_TWIERDZA           │     0.583 │  0.078 │ 0.137 │ 0.099 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.894 │  0.528 │ 0.664 │ 0.572 │
+│ WHATABOUTISM                 │     0.500 │  0.609 │ 0.549 │ 0.525 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.081 │  0.556 │ 0.141 │ 0.113 │
+│ DOWOD_ANEGDOTYCZNY           │     0.286 │  0.094 │ 0.141 │ 0.083 │
+│ APEL_O_JEDNOSC               │     0.929 │  0.228 │ 0.366 │ 0.336 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.4383
+Micro-F1: 0.5003
+Total tokens: 1,247,084
+Avg latency: 1563ms
+
+
+========================================================================
+[2026-07-15 18:59:14] sweep-summary
+========================================================================
+                         Sweep summary (split=all)                          
+┏━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━┓
+┃ Model                  ┃ Variant          ┃ Macro-F1 ┃ Micro-F1 ┃ Failed ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━┩
+│ google/gemma-4-26b-a4b │ fewshot          │   0.5123 │   0.5623 │      0 │
+│ google/gemma-4-26b-a4b │ fewshot_detailed │   0.4383 │   0.5003 │      0 │
+│ google/gemma-4-26b-a4b │ zeroshot         │   0.3852 │   0.4279 │      0 │
+│ google/gemma-4-26b-a4b │ detailed         │   0.2366 │   0.2400 │      0 │
+└────────────────────────┴──────────────────┴──────────┴──────────┴────────┘
+Summary CSV: results\sweep_summary_20260715_185914.csv
+
+
+========================================================================
+[2026-07-15 19:14:07] qwen/qwen3.5-9b-zeroshot-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_qwen x zeroshot ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: 6577ad49253a4d85b4867924a053e7a2
+  Model: qwen/qwen3.5-9b
+  Prompt variant: zeroshot
+
+Classifying 500 speeches...
+WARN 500/500 speeches failed (ERROR/PARSE_FAILED) — rerun with --resume to retry them
+           Results: qwen/qwen3.5-9b / zeroshot / split=all           
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ STRATEGIA_STRACHU            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DEHUMANIZACJA_POGARDA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DUMA_I_SUKCES                │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ MESJANIZM_MORALNY            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ POLARYZACJA_MY_ONI           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ AD_HOMINEM                   │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ OBLEZIONA_TWIERDZA           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ WHATABOUTISM                 │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DOWOD_ANEGDOTYCZNY           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ APEL_O_JEDNOSC               │     0.000 │  0.000 │ 0.000 │ 0.000 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.0000
+Micro-F1: 0.0000
+Total tokens: 646,253
+Avg latency: 847ms
+
+
+========================================================================
+[2026-07-15 19:22:30] qwen/qwen3.5-9b-fewshot-all
+========================================================================
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_qwen x fewshot ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: b359cdfce8804267b04165c24033514e
+  Model: qwen/qwen3.5-9b
+  Prompt variant: fewshot
+
+Classifying 500 speeches...
+WARN 500/500 speeches failed (ERROR/PARSE_FAILED) — rerun with --resume to retry them
+           Results: qwen/qwen3.5-9b / fewshot / split=all            
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ STRATEGIA_STRACHU            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DEHUMANIZACJA_POGARDA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DUMA_I_SUKCES                │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ MESJANIZM_MORALNY            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ POLARYZACJA_MY_ONI           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ AD_HOMINEM                   │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ OBLEZIONA_TWIERDZA           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ WHATABOUTISM                 │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DOWOD_ANEGDOTYCZNY           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ APEL_O_JEDNOSC               │     0.000 │  0.000 │ 0.000 │ 0.000 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.0000
+Micro-F1: 0.0000
+Total tokens: 998,603
+Avg latency: 1005ms
+
+
+========================================================================
+[2026-07-15 19:28:19] qwen/qwen3.5-9b-detailed-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_qwen x detailed ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: 764ccd0c5c6b4ad096db6eb8def4090d
+  Model: qwen/qwen3.5-9b
+  Prompt variant: detailed
+
+Classifying 500 speeches...
+WARN 500/500 speeches failed (ERROR/PARSE_FAILED) — rerun with --resume to retry them
+           Results: qwen/qwen3.5-9b / detailed / split=all           
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ STRATEGIA_STRACHU            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DEHUMANIZACJA_POGARDA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DUMA_I_SUKCES                │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ MESJANIZM_MORALNY            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ POLARYZACJA_MY_ONI           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ AD_HOMINEM                   │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ OBLEZIONA_TWIERDZA           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ WHATABOUTISM                 │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DOWOD_ANEGDOTYCZNY           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ APEL_O_JEDNOSC               │     0.000 │  0.000 │ 0.000 │ 0.000 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.0000
+Micro-F1: 0.0000
+Total tokens: 884,981
+Avg latency: 698ms
+
+
+========================================================================
+[2026-07-15 19:36:25] qwen/qwen3.5-9b-fewshot_detailed-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────── model_qwen x fewshot_detailed ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: 79e233e540884eb1a72e3e56ef6f9656
+  Model: qwen/qwen3.5-9b
+  Prompt variant: fewshot_detailed
+
+Classifying 500 speeches...
+WARN 500/500 speeches failed (ERROR/PARSE_FAILED) — rerun with --resume to retry them
+       Results: qwen/qwen3.5-9b / fewshot_detailed / split=all       
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ STRATEGIA_STRACHU            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DEHUMANIZACJA_POGARDA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DUMA_I_SUKCES                │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ MESJANIZM_MORALNY            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ POLARYZACJA_MY_ONI           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ AD_HOMINEM                   │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ OBLEZIONA_TWIERDZA           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ WHATABOUTISM                 │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DOWOD_ANEGDOTYCZNY           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ APEL_O_JEDNOSC               │     0.000 │  0.000 │ 0.000 │ 0.000 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.0000
+Micro-F1: 0.0000
+Total tokens: 1,242,700
+Avg latency: 970ms
+
+
+========================================================================
+[2026-07-15 19:36:25] sweep-summary
+========================================================================
+                      Sweep summary (split=all)                      
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━┓
+┃ Model           ┃ Variant          ┃ Macro-F1 ┃ Micro-F1 ┃ Failed ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━┩
+│ qwen/qwen3.5-9b │ zeroshot         │   0.0000 │   0.0000 │    500 │
+│ qwen/qwen3.5-9b │ fewshot          │   0.0000 │   0.0000 │    500 │
+│ qwen/qwen3.5-9b │ detailed         │   0.0000 │   0.0000 │    500 │
+│ qwen/qwen3.5-9b │ fewshot_detailed │   0.0000 │   0.0000 │    500 │
+└─────────────────┴──────────────────┴──────────┴──────────┴────────┘
+Summary CSV: results\sweep_summary_20260715_193625.csv
+
+
+========================================================================
+[2026-07-15 20:27:01] model-qwen3.5-9b
+========================================================================
+Loading data...
+  Train (for few-shot): 350, Eval (test): 3
+  Model: qwen/qwen3.5-9b
+  Prompt variant: detailed
+
+Classifying 3 speeches...
+          Results: qwen/qwen3.5-9b / detailed / split=test           
++-------------------------------------------------------------------+
+| Label                        | Precision | Recall |    F1 | Kappa |
+|------------------------------+-----------+--------+-------+-------|
+| AGRESJA_WERBALNA             |     1.000 |  1.000 | 1.000 | 1.000 |
+| STRATEGIA_STRACHU            |     1.000 |  1.000 | 1.000 | 1.000 |
+| DEHUMANIZACJA_POGARDA        |     1.000 |  1.000 | 1.000 | 1.000 |
+| DUMA_I_SUKCES                |     1.000 |  1.000 | 1.000 | 1.000 |
+| MESJANIZM_MORALNY            |     1.000 |  1.000 | 1.000 | 1.000 |
+| POLARYZACJA_MY_ONI           |     1.000 |  1.000 | 1.000 | 1.000 |
+| AD_HOMINEM                   |     1.000 |  1.000 | 1.000 | 1.000 |
+| OBLEZIONA_TWIERDZA           |     1.000 |  1.000 | 1.000 | 1.000 |
+| PRZYPISYWANIE_ZLYCH_INTENCJI |     1.000 |  1.000 | 1.000 | 1.000 |
+| WHATABOUTISM                 |     1.000 |  1.000 | 1.000 | 1.000 |
+| SOFIZMAT_ROZSZERZENIA        |     1.000 |  1.000 | 1.000 | 1.000 |
+| DOWOD_ANEGDOTYCZNY           |     1.000 |  1.000 | 1.000 | 1.000 |
+| APEL_O_JEDNOSC               |     1.000 |  1.000 | 1.000 | 1.000 |
++-------------------------------------------------------------------+
+
+Macro-F1: 0.0000
+Micro-F1: 0.0000
+Total tokens: 4,645
+Avg latency: 351ms
+
+
+========================================================================
+[2026-07-15 20:37:14] model-qwen3.5-9b-zeroshot-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_qwen x zeroshot ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: daeb9f2cc9da4331862febb637e1ddd6
+  Model: qwen/qwen3.5-9b
+  Prompt variant: zeroshot
+
+Classifying 500 speeches...
+           Results: qwen/qwen3.5-9b / zeroshot / split=all           
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.837 │  0.661 │ 0.739 │ 0.707 │
+│ STRATEGIA_STRACHU            │     0.721 │  0.360 │ 0.481 │ 0.413 │
+│ DEHUMANIZACJA_POGARDA        │     0.259 │  0.913 │ 0.404 │ 0.358 │
+│ DUMA_I_SUKCES                │     0.627 │  0.580 │ 0.603 │ 0.529 │
+│ MESJANIZM_MORALNY            │     0.373 │  0.543 │ 0.442 │ 0.391 │
+│ POLARYZACJA_MY_ONI           │     0.798 │  0.621 │ 0.699 │ 0.601 │
+│ AD_HOMINEM                   │     0.900 │  0.281 │ 0.429 │ 0.391 │
+│ OBLEZIONA_TWIERDZA           │     0.387 │  0.511 │ 0.440 │ 0.296 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.832 │  0.618 │ 0.709 │ 0.615 │
+│ WHATABOUTISM                 │     0.684 │  0.565 │ 0.619 │ 0.603 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.156 │  0.556 │ 0.244 │ 0.222 │
+│ DOWOD_ANEGDOTYCZNY           │     0.308 │  0.062 │ 0.104 │ 0.063 │
+│ APEL_O_JEDNOSC               │     0.333 │  0.018 │ 0.033 │ 0.022 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.4573
+Micro-F1: 0.5278
+Total tokens: 646,253
+Avg latency: 696ms
+
+
+========================================================================
+[2026-07-15 20:44:17] model-qwen3.5-9b-fewshot-all
+========================================================================
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_qwen x fewshot ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: 23aaa1370401442daa069dca622af787
+  Model: qwen/qwen3.5-9b
+  Prompt variant: fewshot
+
+Classifying 500 speeches...
+           Results: qwen/qwen3.5-9b / fewshot / split=all            
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.648 │  0.919 │ 0.760 │ 0.719 │
+│ STRATEGIA_STRACHU            │     0.861 │  0.360 │ 0.508 │ 0.453 │
+│ DEHUMANIZACJA_POGARDA        │     0.235 │  1.000 │ 0.380 │ 0.330 │
+│ DUMA_I_SUKCES                │     0.591 │  0.679 │ 0.632 │ 0.555 │
+│ MESJANIZM_MORALNY            │     0.237 │  0.914 │ 0.376 │ 0.298 │
+│ POLARYZACJA_MY_ONI           │     0.639 │  0.871 │ 0.737 │ 0.612 │
+│ AD_HOMINEM                   │     0.421 │  0.125 │ 0.193 │ 0.143 │
+│ OBLEZIONA_TWIERDZA           │     0.426 │  0.322 │ 0.367 │ 0.251 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.747 │  0.757 │ 0.752 │ 0.650 │
+│ WHATABOUTISM                 │     0.500 │  0.261 │ 0.343 │ 0.321 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.094 │  0.667 │ 0.164 │ 0.137 │
+│ DOWOD_ANEGDOTYCZNY           │     0.278 │  0.078 │ 0.122 │ 0.070 │
+│ APEL_O_JEDNOSC               │     0.750 │  0.053 │ 0.098 │ 0.085 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.4179
+Micro-F1: 0.5254
+Total tokens: 998,603
+Avg latency: 839ms
+
+
+========================================================================
+[2026-07-15 20:49:16] model-qwen3.5-9b-detailed-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_qwen x detailed ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: bcca1da65a774c2d9948dd1dfba2b683
+  Model: qwen/qwen3.5-9b
+  Prompt variant: detailed
+
+Classifying 500 speeches...
+           Results: qwen/qwen3.5-9b / detailed / split=all           
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.817 │  0.790 │ 0.803 │ 0.776 │
+│ STRATEGIA_STRACHU            │     0.938 │  0.174 │ 0.294 │ 0.254 │
+│ DEHUMANIZACJA_POGARDA        │     0.302 │  0.826 │ 0.442 │ 0.402 │
+│ DUMA_I_SUKCES                │     0.750 │  0.148 │ 0.247 │ 0.205 │
+│ MESJANIZM_MORALNY            │     0.500 │  0.286 │ 0.364 │ 0.330 │
+│ POLARYZACJA_MY_ONI           │     0.875 │  0.500 │ 0.636 │ 0.543 │
+│ AD_HOMINEM                   │     0.824 │  0.219 │ 0.346 │ 0.309 │
+│ OBLEZIONA_TWIERDZA           │     0.500 │  0.144 │ 0.224 │ 0.156 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.839 │  0.542 │ 0.658 │ 0.558 │
+│ WHATABOUTISM                 │     0.500 │  0.391 │ 0.439 │ 0.415 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.100 │  0.444 │ 0.163 │ 0.138 │
+│ DOWOD_ANEGDOTYCZNY           │     0.400 │  0.062 │ 0.108 │ 0.076 │
+│ APEL_O_JEDNOSC               │     0.000 │  0.000 │ 0.000 │ 0.000 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.3635
+Micro-F1: 0.4443
+Total tokens: 884,981
+Avg latency: 592ms
+
+
+========================================================================
+[2026-07-15 20:56:11] model-qwen3.5-9b-fewshot_detailed-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────── model_qwen x fewshot_detailed ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: ec8b3164e78e44f9a38b404ebc8c3927
+  Model: qwen/qwen3.5-9b
+  Prompt variant: fewshot_detailed
+
+Classifying 500 speeches...
+       Results: qwen/qwen3.5-9b / fewshot_detailed / split=all       
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.644 │  0.935 │ 0.763 │ 0.722 │
+│ STRATEGIA_STRACHU            │     0.862 │  0.291 │ 0.435 │ 0.381 │
+│ DEHUMANIZACJA_POGARDA        │     0.244 │  0.957 │ 0.389 │ 0.341 │
+│ DUMA_I_SUKCES                │     0.618 │  0.580 │ 0.599 │ 0.524 │
+│ MESJANIZM_MORALNY            │     0.309 │  0.857 │ 0.455 │ 0.392 │
+│ POLARYZACJA_MY_ONI           │     0.748 │  0.850 │ 0.796 │ 0.709 │
+│ AD_HOMINEM                   │     0.400 │  0.156 │ 0.225 │ 0.165 │
+│ OBLEZIONA_TWIERDZA           │     0.438 │  0.156 │ 0.230 │ 0.149 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.764 │  0.743 │ 0.754 │ 0.656 │
+│ WHATABOUTISM                 │     0.542 │  0.565 │ 0.553 │ 0.531 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.045 │  0.444 │ 0.082 │ 0.051 │
+│ DOWOD_ANEGDOTYCZNY           │     0.333 │  0.094 │ 0.146 │ 0.096 │
+│ APEL_O_JEDNOSC               │     1.000 │  0.070 │ 0.131 │ 0.118 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.4275
+Micro-F1: 0.5246
+Total tokens: 1,242,700
+Avg latency: 824ms
+
+
+========================================================================
+[2026-07-15 20:56:11] sweep-summary
+========================================================================
+                      Sweep summary (split=all)                      
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━┓
+┃ Model           ┃ Variant          ┃ Macro-F1 ┃ Micro-F1 ┃ Failed ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━┩
+│ qwen/qwen3.5-9b │ zeroshot         │   0.4573 │   0.5278 │      0 │
+│ qwen/qwen3.5-9b │ fewshot_detailed │   0.4275 │   0.5246 │      0 │
+│ qwen/qwen3.5-9b │ fewshot          │   0.4179 │   0.5254 │      0 │
+│ qwen/qwen3.5-9b │ detailed         │   0.3635 │   0.4443 │      0 │
+└─────────────────┴──────────────────┴──────────┴──────────┴────────┘
+Summary CSV: results\sweep_summary_20260715_205611.csv
+
+
+========================================================================
+[2026-07-22 20:42:18] model-qwen3.6-35b-a3b
+========================================================================
+Loading data...
+  Train (for few-shot): 350, Eval (test): 5
+  Model: qwen/qwen3.6-35b-a3b
+  Prompt variant: zeroshot
+
+Classifying 5 speeches...
+        Results: qwen/qwen3.6-35b-a3b / zeroshot / split=test         
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃  Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━━┩
+│ AGRESJA_WERBALNA             │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ STRATEGIA_STRACHU            │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ DEHUMANIZACJA_POGARDA        │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ DUMA_I_SUKCES                │     0.000 │  0.000 │ 0.000 │  0.000 │
+│ MESJANIZM_MORALNY            │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ POLARYZACJA_MY_ONI           │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ AD_HOMINEM                   │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ OBLEZIONA_TWIERDZA           │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ WHATABOUTISM                 │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ SOFIZMAT_ROZSZERZENIA        │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ DOWOD_ANEGDOTYCZNY           │     1.000 │  1.000 │ 1.000 │  1.000 │
+│ APEL_O_JEDNOSC               │     0.000 │  0.000 │ 0.000 │ -0.250 │
+└──────────────────────────────┴───────────┴────────┴───────┴────────┘
+
+Macro-F1: 0.0000
+Micro-F1: 0.0000
+Total tokens: 5,850
+Avg latency: 674ms
+
+
+========================================================================
+[2026-07-22 20:54:52] model-qwen3.6-35b-a3b-all
+========================================================================
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: f0200ca2d8664086b3491fdd19188932
+  Model: qwen/qwen3.6-35b-a3b
+  Prompt variant: zeroshot
+
+Classifying 500 speeches...
+        Results: qwen/qwen3.6-35b-a3b / zeroshot / split=all         
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.850 │  0.548 │ 0.667 │ 0.631 │
+│ STRATEGIA_STRACHU            │     0.808 │  0.488 │ 0.609 │ 0.550 │
+│ DEHUMANIZACJA_POGARDA        │     0.625 │  0.652 │ 0.638 │ 0.620 │
+│ DUMA_I_SUKCES                │     0.598 │  0.605 │ 0.601 │ 0.524 │
+│ MESJANIZM_MORALNY            │     0.588 │  0.286 │ 0.385 │ 0.355 │
+│ POLARYZACJA_MY_ONI           │     0.635 │  0.957 │ 0.764 │ 0.644 │
+│ AD_HOMINEM                   │     0.781 │  0.391 │ 0.521 │ 0.476 │
+│ OBLEZIONA_TWIERDZA           │     0.583 │  0.311 │ 0.406 │ 0.321 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.857 │  0.750 │ 0.800 │ 0.726 │
+│ WHATABOUTISM                 │     0.714 │  0.435 │ 0.541 │ 0.524 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.190 │  0.444 │ 0.267 │ 0.248 │
+│ DOWOD_ANEGDOTYCZNY           │     0.381 │  0.375 │ 0.378 │ 0.287 │
+│ APEL_O_JEDNOSC               │     0.682 │  0.263 │ 0.380 │ 0.338 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.5350
+Micro-F1: 0.6110
+Total tokens: 657,098
+Avg latency: 764ms
+
+
+========================================================================
+[2026-07-22 21:04:28] model-qwen3.6-35b-a3b-zeroshot-all
+========================================================================
+──────────────────────────────────────────────── model_qwen35b x zeroshot ─────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: f07f6b68ea9a4da1a2a73e2588d636e1
+  Model: qwen/qwen3.6-35b-a3b
+  Prompt variant: zeroshot
+
+Classifying 500 speeches...
+        Results: qwen/qwen3.6-35b-a3b / zeroshot / split=all         
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.846 │  0.532 │ 0.653 │ 0.617 │
+│ STRATEGIA_STRACHU            │     0.796 │  0.500 │ 0.614 │ 0.555 │
+│ DEHUMANIZACJA_POGARDA        │     0.625 │  0.652 │ 0.638 │ 0.620 │
+│ DUMA_I_SUKCES                │     0.588 │  0.580 │ 0.584 │ 0.504 │
+│ MESJANIZM_MORALNY            │     0.714 │  0.286 │ 0.408 │ 0.384 │
+│ POLARYZACJA_MY_ONI           │     0.638 │  0.957 │ 0.766 │ 0.647 │
+│ AD_HOMINEM                   │     0.735 │  0.391 │ 0.510 │ 0.462 │
+│ OBLEZIONA_TWIERDZA           │     0.571 │  0.311 │ 0.403 │ 0.316 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.864 │  0.750 │ 0.803 │ 0.731 │
+│ WHATABOUTISM                 │     0.714 │  0.435 │ 0.541 │ 0.524 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.190 │  0.444 │ 0.267 │ 0.248 │
+│ DOWOD_ANEGDOTYCZNY           │     0.377 │  0.359 │ 0.368 │ 0.278 │
+│ APEL_O_JEDNOSC               │     0.700 │  0.246 │ 0.364 │ 0.324 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.5322
+Micro-F1: 0.6087
+Total tokens: 656,694
+Avg latency: 750ms
+
+
+========================================================================
+[2026-07-22 21:11:07] model-qwen3.6-35b-a3b-fewshot-all
+========================================================================
+───────────────────────────────────────────────── model_qwen35b x fewshot ─────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: 5b9e667a79a54cb3b17827cafff2cb31
+  Model: qwen/qwen3.6-35b-a3b
+  Prompt variant: fewshot
+
+Classifying 500 speeches...
+         Results: qwen/qwen3.6-35b-a3b / fewshot / split=all         
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.720 │  0.871 │ 0.788 │ 0.755 │
+│ STRATEGIA_STRACHU            │     0.821 │  0.640 │ 0.719 │ 0.669 │
+│ DEHUMANIZACJA_POGARDA        │     0.386 │  0.739 │ 0.507 │ 0.476 │
+│ DUMA_I_SUKCES                │     0.681 │  0.580 │ 0.627 │ 0.561 │
+│ MESJANIZM_MORALNY            │     0.294 │  0.914 │ 0.444 │ 0.379 │
+│ POLARYZACJA_MY_ONI           │     0.667 │  0.943 │ 0.781 │ 0.674 │
+│ AD_HOMINEM                   │     0.712 │  0.656 │ 0.683 │ 0.639 │
+│ OBLEZIONA_TWIERDZA           │     0.500 │  0.100 │ 0.167 │ 0.113 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.761 │  0.819 │ 0.789 │ 0.700 │
+│ WHATABOUTISM                 │     0.524 │  0.478 │ 0.500 │ 0.477 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.125 │  0.444 │ 0.195 │ 0.172 │
+│ DOWOD_ANEGDOTYCZNY           │     0.632 │  0.188 │ 0.289 │ 0.245 │
+│ APEL_O_JEDNOSC               │     0.727 │  0.281 │ 0.405 │ 0.365 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.5304
+Micro-F1: 0.6217
+Total tokens: 1,006,367
+Avg latency: 791ms
+
+
+========================================================================
+[2026-07-22 21:17:30] model-qwen3.6-35b-a3b-detailed-all
+========================================================================
+──────────────────────────────────────────────── model_qwen35b x detailed ─────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: ded7f1df243544ceb645b472840a320c
+  Model: qwen/qwen3.6-35b-a3b
+  Prompt variant: detailed
+
+Classifying 500 speeches...
+        Results: qwen/qwen3.6-35b-a3b / detailed / split=all         
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.868 │  0.742 │ 0.800 │ 0.774 │
+│ STRATEGIA_STRACHU            │     0.833 │  0.291 │ 0.431 │ 0.375 │
+│ DEHUMANIZACJA_POGARDA        │     0.609 │  0.609 │ 0.609 │ 0.590 │
+│ DUMA_I_SUKCES                │     0.818 │  0.333 │ 0.474 │ 0.419 │
+│ MESJANIZM_MORALNY            │     0.576 │  0.543 │ 0.559 │ 0.527 │
+│ POLARYZACJA_MY_ONI           │     0.736 │  0.757 │ 0.746 │ 0.646 │
+│ AD_HOMINEM                   │     0.700 │  0.438 │ 0.538 │ 0.488 │
+│ OBLEZIONA_TWIERDZA           │     0.444 │  0.044 │ 0.081 │ 0.050 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.920 │  0.639 │ 0.754 │ 0.678 │
+│ WHATABOUTISM                 │     0.538 │  0.609 │ 0.571 │ 0.549 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.129 │  0.444 │ 0.200 │ 0.177 │
+│ DOWOD_ANEGDOTYCZNY           │     0.303 │  0.312 │ 0.308 │ 0.204 │
+│ APEL_O_JEDNOSC               │     0.818 │  0.158 │ 0.265 │ 0.237 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.4874
+Micro-F1: 0.5525
+Total tokens: 898,769
+Avg latency: 760ms
+
+
+========================================================================
+[2026-07-22 21:24:41] model-qwen3.6-35b-a3b-fewshot_detailed-all
+========================================================================
+──────────────────────────────────────────── model_qwen35b x fewshot_detailed ─────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: 3a4b8e5508984bb69d827b11db6c671e
+  Model: qwen/qwen3.6-35b-a3b
+  Prompt variant: fewshot_detailed
+
+Classifying 500 speeches...
+    Results: qwen/qwen3.6-35b-a3b / fewshot_detailed / split=all     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.682 │  0.935 │ 0.789 │ 0.754 │
+│ STRATEGIA_STRACHU            │     0.867 │  0.605 │ 0.712 │ 0.665 │
+│ DEHUMANIZACJA_POGARDA        │     0.438 │  0.913 │ 0.592 │ 0.564 │
+│ DUMA_I_SUKCES                │     0.667 │  0.494 │ 0.567 │ 0.498 │
+│ MESJANIZM_MORALNY            │     0.354 │  0.829 │ 0.496 │ 0.441 │
+│ POLARYZACJA_MY_ONI           │     0.665 │  0.921 │ 0.772 │ 0.663 │
+│ AD_HOMINEM                   │     0.644 │  0.594 │ 0.618 │ 0.564 │
+│ OBLEZIONA_TWIERDZA           │     0.438 │  0.078 │ 0.132 │ 0.082 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.827 │  0.764 │ 0.794 │ 0.716 │
+│ WHATABOUTISM                 │     0.484 │  0.652 │ 0.556 │ 0.531 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.087 │  0.444 │ 0.145 │ 0.119 │
+│ DOWOD_ANEGDOTYCZNY           │     0.538 │  0.328 │ 0.408 │ 0.344 │
+│ APEL_O_JEDNOSC               │     0.737 │  0.246 │ 0.368 │ 0.330 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.5346
+Micro-F1: 0.6149
+Total tokens: 1,254,275
+Avg latency: 857ms
+
+
+========================================================================
+[2026-07-22 21:24:41] sweep-summary
+========================================================================
+                        Sweep summary (split=all)                         
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━┓
+┃ Model                ┃ Variant          ┃ Macro-F1 ┃ Micro-F1 ┃ Failed ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━┩
+│ qwen/qwen3.6-35b-a3b │ fewshot_detailed │   0.5346 │   0.6149 │      0 │
+│ qwen/qwen3.6-35b-a3b │ zeroshot         │   0.5322 │   0.6087 │      0 │
+│ qwen/qwen3.6-35b-a3b │ fewshot          │   0.5304 │   0.6217 │      0 │
+│ qwen/qwen3.6-35b-a3b │ detailed         │   0.4874 │   0.5525 │      0 │
+└──────────────────────┴──────────────────┴──────────┴──────────┴────────┘
+Summary CSV: results\sweep_summary_20260722_212441.csv
+
+
+========================================================================
+[2026-07-25 15:48:16] model-claude-opus-5-zeroshot-all
+========================================================================
+───────────────────────────────────────────────────────────────────────────────────────────────────────────── model_claude x zeroshot ──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: 80144403fba24a4ea38c43323c04c83a
+  Model: claude-opus-5
+  Prompt variant: zeroshot
+
+Classifying 500 speeches...
+WARN 40/500 speeches failed (ERROR/PARSE_FAILED) — rerun with --resume to retry them
+            Results: claude-opus-5 / zeroshot / split=all            
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.915 │  0.694 │ 0.789 │ 0.764 │
+│ STRATEGIA_STRACHU            │     0.926 │  0.581 │ 0.714 │ 0.671 │
+│ DEHUMANIZACJA_POGARDA        │     0.450 │  0.783 │ 0.571 │ 0.545 │
+│ DUMA_I_SUKCES                │     0.833 │  0.617 │ 0.709 │ 0.663 │
+│ MESJANIZM_MORALNY            │     0.633 │  0.543 │ 0.585 │ 0.556 │
+│ POLARYZACJA_MY_ONI           │     0.811 │  0.614 │ 0.699 │ 0.604 │
+│ AD_HOMINEM                   │     0.792 │  0.656 │ 0.718 │ 0.681 │
+│ OBLEZIONA_TWIERDZA           │     0.929 │  0.144 │ 0.250 │ 0.212 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.862 │  0.694 │ 0.769 │ 0.689 │
+│ WHATABOUTISM                 │     0.545 │  0.783 │ 0.643 │ 0.622 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.368 │  0.778 │ 0.500 │ 0.487 │
+│ DOWOD_ANEGDOTYCZNY           │     0.933 │  0.438 │ 0.596 │ 0.560 │
+│ APEL_O_JEDNOSC               │     0.926 │  0.439 │ 0.595 │ 0.563 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.6261
+Micro-F1: 0.6622
+Total tokens: 1,511,121
+Avg latency: 3322ms
+
+
+========================================================================
+[2026-07-25 15:48:27] model-claude-opus-5-fewshot-all
+========================================================================
+────────────────────────────────────────────────────────────────────────────────────────────────────────────── model_claude x fewshot ──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: ab2edfc9ac4d4aed920c8a709c652286
+  Model: claude-opus-5
+  Prompt variant: fewshot
+
+Classifying 500 speeches...
+WARN 500/500 speeches failed (ERROR/PARSE_FAILED) — rerun with --resume to retry them
+            Results: claude-opus-5 / fewshot / split=all             
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ STRATEGIA_STRACHU            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DEHUMANIZACJA_POGARDA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DUMA_I_SUKCES                │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ MESJANIZM_MORALNY            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ POLARYZACJA_MY_ONI           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ AD_HOMINEM                   │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ OBLEZIONA_TWIERDZA           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ WHATABOUTISM                 │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DOWOD_ANEGDOTYCZNY           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ APEL_O_JEDNOSC               │     0.000 │  0.000 │ 0.000 │ 0.000 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.0000
+Micro-F1: 0.0000
+Total tokens: 0
+Avg latency: 0ms
+
+
+========================================================================
+[2026-07-25 15:48:38] model-claude-opus-5-detailed-all
+========================================================================
+───────────────────────────────────────────────────────────────────────────────────────────────────────────── model_claude x detailed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: bd33ae97cc3742a68d93e8f2710bc951
+  Model: claude-opus-5
+  Prompt variant: detailed
+
+Classifying 500 speeches...
+WARN 500/500 speeches failed (ERROR/PARSE_FAILED) — rerun with --resume to retry them
+            Results: claude-opus-5 / detailed / split=all            
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃ Label                        ┃ Precision ┃ Recall ┃    F1 ┃ Kappa ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ AGRESJA_WERBALNA             │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ STRATEGIA_STRACHU            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DEHUMANIZACJA_POGARDA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DUMA_I_SUKCES                │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ MESJANIZM_MORALNY            │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ POLARYZACJA_MY_ONI           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ AD_HOMINEM                   │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ OBLEZIONA_TWIERDZA           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ PRZYPISYWANIE_ZLYCH_INTENCJI │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ WHATABOUTISM                 │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ SOFIZMAT_ROZSZERZENIA        │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ DOWOD_ANEGDOTYCZNY           │     0.000 │  0.000 │ 0.000 │ 0.000 │
+│ APEL_O_JEDNOSC               │     0.000 │  0.000 │ 0.000 │ 0.000 │
+└──────────────────────────────┴───────────┴────────┴───────┴───────┘
+
+Macro-F1: 0.0000
+Micro-F1: 0.0000
+Total tokens: 0
+Avg latency: 0ms
+
+
+========================================================================
+[2026-07-25 15:48:42] model-claude-opus-5-fewshot_detailed-all
+========================================================================
+───────────────────────────────────────────────────────────────────────────────────────────────────────── model_claude x fewshot_detailed ──────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: a245bc1fca5544cc93804e0db0d24a56
+  Model: claude-opus-5
+  Prompt variant: fewshot_detailed
+
+Classifying 500 speeches...
+
+
+========================================================================
+[2026-08-07 22:41:43] model-bonsai-27b
+========================================================================
+Loading data...
+  Train (for few-shot): 350, Eval (test): 75
+
+
+========================================================================
+[2026-08-07 22:42:27] model-bonsai-27b
+========================================================================
+Loading data...
+  Train (for few-shot): 350, Eval (test): 75
+
+
+========================================================================
+[2026-08-07 22:44:25] model-bonsai-27b-zeroshot
+========================================================================
+──────────────────────────────────────────────────────────── model_bonsai x zeroshot ─────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (test): 75
+
+
+========================================================================
+[2026-08-07 22:44:25] model-bonsai-27b-fewshot
+========================================================================
+FAILED configs/model_bonsai.yaml / zeroshot: The filesystem tracking backend (e.g., './mlruns') is in maintenance mode and will not receive 
+further updates. Please migrate to a database backend (e.g., 'sqlite:///mlflow.db') to access the latest MLflow features. The `mlflow 
+migrate-filestore` tool migrates your existing data losslessly. See https://mlflow.org/docs/latest/self-hosting/migrate-from-file-store for 
+migration guidance. If the filesystem backend is required for your workflow, set `MLFLOW_ALLOW_FILE_STORE=true` to opt out of this exception.
+───────────────────────────────────────────────────────────── model_bonsai x fewshot ─────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (test): 75
+
+
+========================================================================
+[2026-08-07 22:44:25] model-bonsai-27b-detailed
+========================================================================
+FAILED configs/model_bonsai.yaml / fewshot: The filesystem tracking backend (e.g., './mlruns') is in maintenance mode and will not receive further
+updates. Please migrate to a database backend (e.g., 'sqlite:///mlflow.db') to access the latest MLflow features. The `mlflow migrate-filestore` 
+tool migrates your existing data losslessly. See https://mlflow.org/docs/latest/self-hosting/migrate-from-file-store for migration guidance. If 
+the filesystem backend is required for your workflow, set `MLFLOW_ALLOW_FILE_STORE=true` to opt out of this exception.
+──────────────────────────────────────────────────────────── model_bonsai x detailed ─────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (test): 75
+
+
+========================================================================
+[2026-08-07 22:44:25] model-bonsai-27b-fewshot_detailed
+========================================================================
+FAILED configs/model_bonsai.yaml / detailed: The filesystem tracking backend (e.g., './mlruns') is in maintenance mode and will not receive 
+further updates. Please migrate to a database backend (e.g., 'sqlite:///mlflow.db') to access the latest MLflow features. The `mlflow 
+migrate-filestore` tool migrates your existing data losslessly. See https://mlflow.org/docs/latest/self-hosting/migrate-from-file-store for 
+migration guidance. If the filesystem backend is required for your workflow, set `MLFLOW_ALLOW_FILE_STORE=true` to opt out of this exception.
+──────────────────────────────────────────────────────── model_bonsai x fewshot_detailed ─────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (test): 75
+
+
+========================================================================
+[2026-08-07 22:44:25] sweep-summary
+========================================================================
+FAILED configs/model_bonsai.yaml / fewshot_detailed: The filesystem tracking backend (e.g., './mlruns') is in maintenance mode and will not 
+receive further updates. Please migrate to a database backend (e.g., 'sqlite:///mlflow.db') to access the latest MLflow features. The `mlflow 
+migrate-filestore` tool migrates your existing data losslessly. See https://mlflow.org/docs/latest/self-hosting/migrate-from-file-store for 
+migration guidance. If the filesystem backend is required for your workflow, set `MLFLOW_ALLOW_FILE_STORE=true` to opt out of this exception.
+                    Sweep summary (split=test)                    
+┏━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━┓
+┃ Model        ┃ Variant          ┃ Macro-F1 ┃ Micro-F1 ┃ Failed ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━┩
+│ model_bonsai │ zeroshot         │   FAILED │        - │      - │
+│ model_bonsai │ fewshot          │   FAILED │        - │      - │
+│ model_bonsai │ detailed         │   FAILED │        - │      - │
+│ model_bonsai │ fewshot_detailed │   FAILED │        - │      - │
+└──────────────┴──────────────────┴──────────┴──────────┴────────┘
+Summary CSV: results/sweep_summary_20260807_224425.csv
+
+
+========================================================================
+[2026-08-07 22:47:28] model-bonsai-27b-zeroshot-all
+========================================================================
+─────────────────────────── model_bonsai x zeroshot ────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: 655e7b77c668429fa9687add4a64b94f
+  Model: prism-ml/bonsai-27b
+  Prompt variant: zeroshot
+
+Classifying 500 speeches...
+
+
+========================================================================
+[2026-08-08 01:00:27] model-bonsai-27b-zeroshot-all
+========================================================================
+──────────────────────────────────────────────────────────── model_bonsai x zeroshot ─────────────────────────────────────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  Resume: 0 predictions already done
+  MLflow run ID: 8809fbcfeb7a4603b207d50b13a4edc1
+  Model: prism-ml/bonsai-27b
+  Prompt variant: zeroshot
+
+Classifying 500 speeches...
+

@@ -1,0 +1,20 @@
+_base_: base.yaml
+
+# Gemma 4 26B-A4B (MoE, 4B active) via LMStudio OpenAI-compatible endpoint.
+# temp>0 + frequency_penalty breaks the greedy repetition loop this model hits
+# when structured-output + Polish prompt push it into degenerate decoding.
+model:
+  type: "lmstudio"
+  name: "google/gemma-4-26b-a4b"
+  temperature: 0.0
+  frequency_penalty: 0.3
+  max_completion_tokens: 10000
+
+prompt:
+  variant: "zeroshot"
+
+experiment:
+  # No variant suffix here — the sweep appends the variant itself; the old
+  # "-zeroshot" suffix produced doubled file names like *-zeroshot-zeroshot-all.jsonl.
+  name: "model-gemma-4-26b-a4b"
+  mlflow_experiment: "parliament-model-comparison"

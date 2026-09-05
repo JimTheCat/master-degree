@@ -1,0 +1,42 @@
+_base_: base.yaml
+
+batch_processing:
+  input_path: "data/corpus/speeches.jsonl"
+  output_path: "data/predictions/corpus_full.jsonl"
+  checkpoint_interval: 1000
+  flush_interval: 100
+
+  rate_limits:
+    openai:
+      max_concurrent: 30
+      requests_per_second: 20
+      max_tokens_per_minute: 150000
+    anthropic:
+      max_concurrent: 20
+      requests_per_second: 15
+      max_tokens_per_minute: 100000
+    ollama:
+      max_concurrent: 2
+      requests_per_second: 1
+    # LMStudio serves one model instance; parallel slots split the context
+    # window, so keep concurrency at 1 (matches PROVIDER_CONCURRENCY).
+    lmstudio:
+      max_concurrent: 1
+      requests_per_second: 5
+
+  cost_limits:
+    max_budget_usd: 100.0
+    warn_at_usd: 50.0
+
+  retry:
+    max_attempts: 5
+    min_wait_seconds: 2
+    max_wait_seconds: 60
+
+tracking:
+  langsmith:
+    trace_sample_rate: 0.01
+
+experiment:
+  name: "full-corpus-classification"
+  mlflow_experiment: "parliament-full-corpus"

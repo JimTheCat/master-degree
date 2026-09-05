@@ -1,0 +1,62 @@
+─────────────────────────── model_bonsai x zeroshot ────────────────────────────
+Loading data...
+  Train (for few-shot): 350, Eval (all): 500
+  MLflow run ID: 655e7b77c668429fa9687add4a64b94f
+  Model: prism-ml/bonsai-27b
+  Prompt variant: zeroshot
+
+Classifying 500 speeches...
+Console log appended to: results/logs/experiments.log
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/jimmy/dev/masters-prototype/scripts/run_llm_sweep.py", line 106, in run_sweep
+    summary = await run_experiment(
+              ^^^^^^^^^^^^^^^^^^^^^
+        config, split=split, resume=resume, limit=limit, track=track
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/jimmy/dev/masters-prototype/scripts/run_llm_experiment.py", line 98, in run_experiment
+    return await _run_experiment(config, exp_name, split, limit, resume, track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jimmy/dev/masters-prototype/scripts/run_llm_experiment.py", line 147, in _run_experiment
+    new_predictions = await classifier.classify_batch(todo) if todo else []
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jimmy/dev/masters-prototype/src/models/langchain_classifier.py", line 340, in classify_batch
+    return await asyncio.gather(*(_run(s) for s in speeches))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jimmy/dev/masters-prototype/src/models/langchain_classifier.py", line 325, in _run
+    async with semaphore:
+               ^^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "/usr/lib/python3.14/asyncio/locks.py", line 407, in acquire
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jimmy/dev/masters-prototype/scripts/run_llm_sweep.py", line 153, in <module>
+    main()
+    ~~~~^^
+  File "/home/jimmy/dev/masters-prototype/scripts/run_llm_sweep.py", line 146, in main
+    asyncio.run(run_sweep(
+    ~~~~~~~~~~~^^^^^^^^^^^
+        args.models, args.prompts, split=args.split, resume=args.resume,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        limit=args.limit, track=not args.no_track,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 133, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt

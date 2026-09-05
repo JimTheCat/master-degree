@@ -1,0 +1,41 @@
+project:
+  name: "parliament-speech-analysis"
+  random_seed: 42
+
+labels:
+  emotions:
+    - AGRESJA_WERBALNA
+    - STRATEGIA_STRACHU
+    - DEHUMANIZACJA_POGARDA
+    - DUMA_I_SUKCES
+    - MESJANIZM_MORALNY
+  rhetorical:
+    - POLARYZACJA_MY_ONI
+    - AD_HOMINEM
+    - OBLEZIONA_TWIERDZA
+    - PRZYPISYWANIE_ZLYCH_INTENCJI
+    - WHATABOUTISM
+    - SOFIZMAT_ROZSZERZENIA
+    - DOWOD_ANEGDOTYCZNY
+    - APEL_O_JEDNOSC
+
+data:
+  gold_standard_path: "data/gold_standard/speeches.jsonl"
+  corpus_path: "data/corpus/"
+  splits_dir: "data/splits/"
+  predictions_dir: "data/predictions/"
+  split_ratios:
+    train: 0.7
+    val: 0.15
+    test: 0.15
+
+evaluation:
+  threshold: 0.5
+  primary_metric: "macro_f1"
+
+tracking:
+  mlflow:
+    tracking_uri: "file:./mlruns"
+  langsmith:
+    project: "parliament-speech-analysis"
+    trace_sample_rate: 1.0

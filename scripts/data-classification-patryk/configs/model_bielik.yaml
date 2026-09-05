@@ -1,0 +1,18 @@
+_base_: base.yaml
+
+# Bielik served via LMStudio OpenAI-compatible endpoint.
+# Model name must match the LMStudio identifier (visible in `lms ls`).
+model:
+  type: "lmstudio"
+  name: "bielik-11b-v3.0-instruct"
+  temperature: 0.0
+  max_completion_tokens: 10000
+
+prompt:
+  variant: "detailed"
+  num_examples: 3
+  example_selection: "stratified"
+
+experiment:
+  name: "model-bielik-11b"
+  mlflow_experiment: "parliament-model-comparison"

@@ -1,0 +1,16 @@
+_base_: base.yaml
+
+model:
+  type: "openai"
+  name: "gpt-4"
+  temperature: 0.0
+  max_completion_tokens: 800
+
+prompt:
+  variant: "fewshot_detailed"
+  num_examples: 3
+  example_selection: "stratified"
+
+experiment:
+  name: "prompt-fewshot-detailed-gpt4"
+  mlflow_experiment: "parliament-prompt-engineering"

@@ -1,0 +1,21 @@
+_base_: base.yaml
+
+# Bonsai 27B via LMStudio OpenAI-compatible endpoint.
+# `name` must match the LMStudio model identifier exactly (see `lms ls`) —
+# LMStudio resolves the loaded model by this string, not by HF repo path.
+model:
+  type: "lmstudio"
+  name: "prism-ml/bonsai-27b"
+  temperature: 0.0
+  max_completion_tokens: 10000
+
+prompt:
+  variant: "zeroshot"
+  num_examples: 3
+  example_selection: "stratified"
+
+experiment:
+  # No slashes and no variant suffix — the name becomes the predictions file
+  # name and the MLflow run name, and the sweep appends the variant itself.
+  name: "model-bonsai-27b"
+  mlflow_experiment: "parliament-model-comparison"

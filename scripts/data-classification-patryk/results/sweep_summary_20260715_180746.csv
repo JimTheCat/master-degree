@@ -1,0 +1,5 @@
+experiment,model,variant,split,n_speeches,n_failed,macro_f1,micro_f1,emotions_macro_f1,rhetorical_macro_f1,total_tokens,avg_latency_ms,error
+model-bielik-11b-zeroshot-all,bielik-11b-v3.0-instruct,zeroshot,all,500,0,0.344398454387556,0.5068681318681318,0.5117833673380556,0.23978288379349377,847525,626.8,
+model-bielik-11b-fewshot-all,bielik-11b-v3.0-instruct,fewshot,all,500,0,0.4530774292499476,0.5673021374927787,0.6084213447441454,0.355987482066074,1334916,802.3,
+model-bielik-11b-detailed-all,bielik-11b-v3.0-instruct,detailed,all,500,0,0.35796048016630055,0.4785932721712538,0.45467352773013153,0.29751482543890617,1163904,567.5,
+model-bielik-11b-fewshot_detailed-all,bielik-11b-v3.0-instruct,fewshot_detailed,all,500,0,0.45771506732138045,0.5695677915926584,0.5893158936154836,0.3754645508875659,1655721,681.5,

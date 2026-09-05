@@ -1,0 +1,26 @@
+_base_: base.yaml
+
+# Qwen 3.6 35B-A3B (MoE, 3B active) — reasoning model via LMStudio.
+# Unlike model_qwen.yaml (thinking DISABLED on the 9B to keep json_schema
+# structured output working), here thinking is left ENABLED to test whether
+# reasoning helps the rhetorical labels that every local model struggles with.
+# LMStudio emits the grammar-forced JSON inside the thinking channel, which
+# langchain-openai drops — LangChainClassifier._classify_lmstudio_raw re-reads
+# it via reasoning_content, so structured output still parses.
+# max_completion_tokens bumped high: reasoning tokens + JSON must both fit.
+model:
+  type: "lmstudio"
+  name: "qwen/qwen3.6-35b-a3b"
+  temperature: 0.0
+  max_completion_tokens: 12000
+
+prompt:
+  variant: "zeroshot"
+  num_examples: 3
+  example_selection: "stratified"
+
+experiment:
+  # No slashes here — the name becomes the predictions file name and the
+  # MLflow run name (a slash creates stray subdirectories).
+  name: "model-qwen3.6-35b-a3b"
+  mlflow_experiment: "parliament-model-comparison"

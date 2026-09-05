@@ -1,0 +1,18 @@
+_base_: base.yaml
+
+model:
+  type: "google_genai"
+  name: "gemini-2.5-pro"
+  temperature: 0.0
+  # Gemini 2.5 has thinking enabled by default and thoughts consume the output
+  # budget — 500 tokens truncated the JSON mid-label (labels like "DUMA").
+  max_completion_tokens: 4096
+
+prompt:
+  variant: "fewshot"
+  num_examples: 3
+  example_selection: "stratified"
+
+experiment:
+  name: "model-gemini-2.5-pro"
+  mlflow_experiment: "parliament-model-comparison"

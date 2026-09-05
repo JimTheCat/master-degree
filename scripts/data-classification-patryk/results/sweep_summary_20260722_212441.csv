@@ -1,0 +1,5 @@
+experiment,model,variant,split,n_speeches,n_failed,macro_f1,micro_f1,emotions_macro_f1,rhetorical_macro_f1,total_tokens,avg_latency_ms,error
+model-qwen3.6-35b-a3b-zeroshot-all,qwen/qwen3.6-35b-a3b,zeroshot,all,500,0,0.5322059033747183,0.6087492298213185,0.5796126260287869,0.5025767017159254,656694,750.0,
+model-qwen3.6-35b-a3b-fewshot-all,qwen/qwen3.6-35b-a3b,fewshot,all,500,0,0.5303959481805777,0.6217440543601359,0.6171698427855,0.47616226405250106,1006367,790.6,
+model-qwen3.6-35b-a3b-detailed-all,qwen/qwen3.6-35b-a3b,detailed,all,500,0,0.4873778068853252,0.5524712254570074,0.5744475749741229,0.4329592018298267,898769,760.0,
+model-qwen3.6-35b-a3b-fewshot_detailed-all,qwen/qwen3.6-35b-a3b,fewshot_detailed,all,500,0,0.5346103694181354,0.6148571428571429,0.6312192182815515,0.47422983887850056,1254275,856.7,

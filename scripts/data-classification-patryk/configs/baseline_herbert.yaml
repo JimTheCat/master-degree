@@ -1,0 +1,18 @@
+_base_: base.yaml
+
+model:
+  type: "transformer"
+  name: "allegro/herbert-base-cased"
+  max_length: 512
+
+training:
+  epochs: 10
+  batch_size: 16
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  early_stopping_patience: 3
+
+experiment:
+  name: "baseline-herbert"
+  mlflow_experiment: "parliament-baseline"

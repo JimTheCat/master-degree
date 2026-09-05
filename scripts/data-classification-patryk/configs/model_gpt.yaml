@@ -1,0 +1,16 @@
+_base_: base.yaml
+
+model:
+  type: "openai"
+  name: "gpt-4.1"
+  temperature: 0.0
+  max_completion_tokens: 500
+
+prompt:
+  variant: "fewshot"
+  num_examples: 3
+  example_selection: "stratified"
+
+experiment:
+  name: "model-gpt-4.1"
+  mlflow_experiment: "parliament-model-comparison"

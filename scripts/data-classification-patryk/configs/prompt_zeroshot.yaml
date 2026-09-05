@@ -1,0 +1,14 @@
+_base_: base.yaml
+
+model:
+  type: "openai"
+  name: "gpt-4"
+  temperature: 0.0
+  max_completion_tokens: 500
+
+prompt:
+  variant: "zeroshot"
+
+experiment:
+  name: "prompt-zeroshot-gpt4"
+  mlflow_experiment: "parliament-prompt-engineering"

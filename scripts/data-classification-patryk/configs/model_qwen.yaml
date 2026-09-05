@@ -1,0 +1,26 @@
+_base_: base.yaml
+
+# Qwen 3.5 served via LMStudio OpenAI-compatible endpoint.
+# Model name must match the LMStudio identifier (visible in `lms ls`).
+# Qwen3 is a reasoning model — with thinking enabled it emits only reasoning
+# tokens and empty content, which breaks json_schema structured output, so
+# thinking is disabled per request via chat_template_kwargs.
+model:
+  type: "lmstudio"
+  name: "qwen/qwen3.5-9b"
+  temperature: 0.0
+  max_completion_tokens: 4000
+  extra_body:
+    chat_template_kwargs:
+      enable_thinking: false
+
+prompt:
+  variant: "detailed"
+  num_examples: 3
+  example_selection: "stratified"
+
+experiment:
+  # No slashes here — the name becomes the predictions file name and the
+  # MLflow run name (a slash creates stray subdirectories).
+  name: "model-qwen3.5-9b"
+  mlflow_experiment: "parliament-model-comparison"
